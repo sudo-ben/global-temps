@@ -34,6 +34,7 @@ df = preprocess(load_data)
 title = f"Cities of the world temperatures from {df.Date.min().strftime('%Y')} to {df.Date.max().strftime('%Y')}"
 
 app = dash.Dash(name=title)
+server = app.server
 
 starting_cities = [
     "New York City, New York, US",
@@ -319,4 +320,4 @@ def build_city_all_with_mean(city_country, is_fahrenheit):
 
 
 if __name__ == "__main__":
-    app.run_server()
+    app.run_server(debug=True)
