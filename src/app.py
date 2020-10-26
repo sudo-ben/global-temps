@@ -22,11 +22,12 @@ from process_data import (
     preprocess,
     load_data,
     build_city_df,
-    calc_monthly,
-    calc_yearly,
-    day_of_year_pivot,
     data_summary,
     load_city_lat_long,
+)
+from process_city_data import (
+    calc_monthly,
+    calc_yearly,
 )
 
 DEBUG = False
@@ -34,9 +35,54 @@ memory = Memory(None) if DEBUG else Memory("cache", verbose=0)
 
 df = preprocess(load_data)
 
-title = f"⛅ Cities of the world temperatures from {df.Date.min().strftime('%Y')} to {df.Date.max().strftime('%Y')}"
+title = f"Cities of the world temperatures from {df.Date.min().strftime('%Y')} to {df.Date.max().strftime('%Y')}"
 
-app = dash.Dash(name=title, suppress_callback_exceptions=True)
+app = dash.Dash(
+    name=title,
+    title=title,
+    suppress_callback_exceptions=True,
+    assets_external_path="main.css",
+    index_string="""<!DOCTYPE html>
+<html>
+    <head>
+        {%metas%}
+        <title>{%title%}</title>
+        {%favicon%}
+        {%css%}
+        <style>
+            html, body {
+                padding: 0;
+                margin: 0;
+                background: #383838;
+                color: #eaeaea;
+                text-align: center;
+            }
+            h1, h2, h3, h4, p, #my-daq-toggleswitch {
+                padding: 14px 0;
+                margin: 0;
+            }
+
+            #footer {
+                text-align: left;
+            }
+            #footer p, #footer h3 {
+                padding: 0.5rem 1rem;
+            }
+            a {
+                color: #b2b2b2;
+            }
+        </style>
+    </head>
+    <body>
+        {%app_entry%}
+        <footer>
+            {%config%}
+            {%scripts%}
+            {%renderer%}
+        </footer>
+    </body>
+</html>""",
+)
 server = app.server
 
 starting_cities = [
@@ -51,8 +97,8 @@ starting_cities = [
 city_lat_long = load_city_lat_long()
 
 starting_position = (
-    float(city_lat_long["Denver, Colorado, US"]["latt"]),
-    float(city_lat_long["Denver, Colorado, US"]["longt"]),
+    float(city_lat_long["Wichita, Kansas, US"]["latt"]),
+    float(city_lat_long["Wichita, Kansas, US"]["longt"]),
 )
 
 
@@ -78,8 +124,7 @@ app.layout = html.Div(
         # represents the URL bar, doesn't render anything
         dcc.Location(id="url", refresh=False),
         # dcc.Link(html.H2(children=title), href="/"),
-        html.H2(children=title),
-        html.Div("Select a city on the map to load temperature history"),
+        # html.P("Select a city on the map to load temperature history"),
         html.Div(
             [
                 html.Div(
@@ -102,6 +147,7 @@ app.layout = html.Div(
         html.Div(
             [
                 html.H1(id="intermediate-value", children=""),
+                html.P(children=title),
                 daq.ToggleSwitch(
                     id="my-daq-toggleswitch",
                     label="Celsius °C   - Fahrenheit °F",
@@ -125,7 +171,11 @@ app.layout = html.Div(
 ### Author
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/BenMcDonald___.svg?style=social&label=Follow%20%40BenMcDonald___)](https://twitter.com/BenMcDonald___)
-"""
+
+
+---
+""",
+            id="footer",
         ),
     ]
 )

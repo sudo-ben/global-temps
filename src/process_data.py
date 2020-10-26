@@ -134,44 +134,6 @@ def build_city_df(df: pd.DataFrame, city_country: str, is_fahrenheit: bool):
     return city_df
 
 
-def calc_monthly(city_df: pd.DataFrame):
-    city_df["AvgTemperature"] = city_df["AvgTemperature"].astype(float)
-    city_df_mean = city_df.groupby([city_df.index.year, city_df.index.month])[
-        "AvgTemperature"
-    ].mean()
-
-    city_df_mean.index = city_df_mean.index.set_names(["Year", "Month"])
-
-    city_df_mean = city_df_mean.unstack()
-
-    return city_df_mean
-
-
-def calc_yearly(city_df: pd.DataFrame):
-    city_df["AvgTemperature"] = city_df["AvgTemperature"].astype(float)
-    city_df_years = city_df.groupby([city_df.index.year])
-
-    return city_df_years
-
-
-def day_of_year_pivot(df: pd.DataFrame, city_country: str):
-    series_ax = build_city_df(df, city_country, False)
-    series_ax["Day of year"] = series_ax.index.dayofyear
-    series_ax["Year"] = series_ax.index.year
-    series_ax["AvgTemperature"] = series_ax["AvgTemperature"].astype(float)
-
-    return (
-        pd.pivot_table(
-            series_ax,
-            values="AvgTemperature",
-            index=["Day of year"],
-            columns=["Year"],
-        )
-        .bfill()
-        .ffill()
-    )
-
-
 def data_summary(df):
     regions_covered = ", ".join(df.Region.unique())
     cites_num = len(df.City.unique())
@@ -182,47 +144,3 @@ The first recorded day is {df.Date.min().strftime('%b, %Y')} and the last {df.Da
 The air temperature data is available for research and non-commercial purposes only (http://academic.udayton.edu/kissock/http/Weather/default.htm).
 
 The goal of this project is to make apparent any trends in the city temperature data. Each year is rendered on the charts in a different color"""
-
-
-def gen_geocode_get_lat_long_file():
-    """
-    Geocode.xyz uses only open data sources, including but not limited to OpenStreetMap, Geonames, Osmnames, openaddresses.io, UK Ordnance Survey, www.dati.gov.it, data.europa.eu/euodp/en/data, PSMA Geocoded National Address File (Australia), etc..
-    You may cache our geocodes, display results on any map, store them however you want for as long as you want, use them however you want, even commercially - unless you wish to resell our services.
-    """
-
-    df = preprocess(load_data)
-
-    df["web_key"] = (
-        df["City"].astype("string")
-        + ","
-        + np.where(df["State"].isnull(), "", df["State"].astype("string") + ",")
-        + df["Country"].astype("string")
-    )
-
-    country_cities = df[
-        ["Country", "State", "City", "CityCountry", "web_key"]
-    ].drop_duplicates()
-
-    print(country_cities)
-
-    all_data = {}
-    with open("cities_lat_long.json", "r", encoding="utf-8") as f:
-        all_data = json.load(f)
-
-    for _i, row in country_cities.iterrows():
-        country_query = urllib.parse.quote(row["web_key"])
-        print(country_query)
-        if str(row["CityCountry"]) not in all_data:
-            url = f"https://geocode.xyz/{country_query}?json=True"
-            print(url)
-
-            try:
-                with urllib.request.urlopen(url) as url_responce:
-                    data = json.loads(url_responce.read().decode())
-                    print(data)
-                    all_data[str(row["CityCountry"])] = data
-                with open("cities_lat_long.json", "w", encoding="utf-8") as f:
-                    json.dump(all_data, f, ensure_ascii=False, indent=4)
-                time.sleep(5)
-            except:
-                time.sleep(60)
