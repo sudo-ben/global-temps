@@ -8,6 +8,7 @@ from process_data import (
     column_dtypes,
     build_city_df,
     calc_monthly,
+    load_city_lat_long,
 )
 
 
@@ -48,6 +49,18 @@ class TestStringMethods(unittest.TestCase):
 
         # check columns
         calc_monthly(build_city_df(df, "Abilene, Texas, US", False))
+
+    def test_load_city_lat_long(self):
+        load_city_lat_long()
+
+    def test_find_lat_long(self):
+        city_lat_long = load_city_lat_long()
+
+        df = preprocess(load_data)
+
+        for city_key in list(df.CityCountry.unique()):
+            if city_key in city_lat_long:
+                print(city_lat_long[city_key])
 
 
 class TestSnapshot(snapshottest.TestCase):

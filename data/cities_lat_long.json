@@ -1,0 +1,5926 @@
+{
+    "Algiers, Algeria": {
+        "standard": {
+            "addresst": "Alger",
+            "city": "Algiers",
+            "prov": "DZ",
+            "countryname": "Algeria",
+            "postal": {},
+            "confidence": "0.4"
+        },
+        "longt": "3.06399",
+        "alt": {},
+        "elevation": {},
+        "latt": "36.78163"
+    },
+    "Bujumbura, Burundi": {
+        "standard": {
+            "addresst": {},
+            "city": "Bujumbura",
+            "prov": "BI",
+            "countryname": "Burundi",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "29.36915",
+        "alt": {
+            "loc": {
+                "longt": "29.38865",
+                "prov": "BI",
+                "city": "Bujumbura",
+                "countryname": "Burundi",
+                "postal": "2696",
+                "region": {},
+                "latt": "-3.35441"
+            }
+        },
+        "elevation": {},
+        "latt": "-3.37259"
+    },
+    "Cotonou, Benin": {
+        "standard": {
+            "addresst": {},
+            "city": "Cotonou",
+            "prov": "BJ",
+            "countryname": "Benin",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "2.39665",
+        "alt": {
+            "loc": {
+                "longt": "2.38435",
+                "prov": "BJ",
+                "city": "Cotonou",
+                "countryname": "Benin",
+                "postal": "COO",
+                "region": {},
+                "latt": "6.35723"
+            }
+        },
+        "elevation": {},
+        "latt": "6.36403"
+    },
+    "Bangui, Central African Republic": {
+        "standard": {
+            "addresst": {},
+            "city": "Bangui",
+            "prov": "CF",
+            "countryname": "Central African Republic",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "18.56335",
+        "alt": {
+            "loc": {
+                "longt": "18.51880",
+                "prov": "CF",
+                "city": "Bangui",
+                "countryname": "Central African Republic",
+                "postal": "BGF",
+                "region": {},
+                "latt": "4.39848"
+            }
+        },
+        "elevation": {},
+        "latt": "4.37555"
+    },
+    "Brazzaville, Congo": {
+        "standard": {
+            "addresst": {},
+            "city": "Brazzaville",
+            "prov": "CG",
+            "countryname": "Congo",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "15.26264",
+        "alt": {
+            "loc": {
+                "longt": "15.23496",
+                "prov": "CG",
+                "city": "Brazzaville",
+                "countryname": "Congo",
+                "postal": "2998",
+                "region": {},
+                "latt": "-4.27535"
+            }
+        },
+        "elevation": {},
+        "latt": "-4.26301"
+    },
+    "Cairo, Egypt": {
+        "standard": {
+            "addresst": {},
+            "city": "Cairo",
+            "prov": "EG",
+            "countryname": "Egypt",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "31.28040",
+        "alt": {
+            "loc": {
+                "longt": "31.22091",
+                "prov": "EG",
+                "city": "Cairo",
+                "countryname": "Egypt",
+                "postal": "11211",
+                "region": {},
+                "latt": "30.06230"
+            }
+        },
+        "elevation": {},
+        "latt": "30.06752"
+    },
+    "Addis Ababa, Ethiopia": {
+        "standard": {
+            "addresst": {},
+            "city": "Addis Ababa",
+            "prov": "ET",
+            "countryname": "Ethiopia",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "38.75626",
+        "alt": {
+            "loc": {
+                "longt": "38.83120",
+                "prov": "ET",
+                "city": "Addis Ababa",
+                "countryname": "Ethiopia",
+                "postal": "5648",
+                "region": {},
+                "latt": "9.02449"
+            }
+        },
+        "elevation": {},
+        "latt": "9.00771"
+    },
+    "Libreville, Gabon": {
+        "standard": {
+            "addresst": {},
+            "city": "Libreville",
+            "prov": "GA",
+            "countryname": "Gabon",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "9.44945",
+        "alt": {
+            "loc": {
+                "longt": "9.41228",
+                "prov": "GA",
+                "city": "Libreville",
+                "countryname": "Gabon",
+                "postal": "LBV",
+                "region": {},
+                "latt": "0.45860"
+            }
+        },
+        "elevation": {},
+        "latt": "0.40890"
+    },
+    "Banjul, Gambia": {
+        "standard": {
+            "addresst": {},
+            "city": "Banjul",
+            "prov": "GM",
+            "countryname": "Gambia",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-16.58439",
+        "alt": {
+            "loc": {
+                "longt": "-16.65220",
+                "prov": "GM",
+                "city": "Banjul",
+                "countryname": "Gambia",
+                "postal": "BJL",
+                "region": {},
+                "latt": "13.33800"
+            }
+        },
+        "elevation": {},
+        "latt": "13.45527"
+    },
+    "Conakry, Guinea": {
+        "standard": {
+            "addresst": {},
+            "city": "Conakry",
+            "prov": "GN",
+            "countryname": "Guinea",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-13.65320",
+        "alt": {
+            "loc": {
+                "longt": "-13.71433",
+                "prov": "GN",
+                "city": "Conakry",
+                "countryname": "Guinea",
+                "postal": "BP5675",
+                "region": {},
+                "latt": "9.51183"
+            }
+        },
+        "elevation": {},
+        "latt": "9.56342"
+    },
+    "Bissau, Guinea-Bissau": {
+        "standard": {
+            "addresst": {},
+            "city": "Bissau",
+            "prov": "GW",
+            "countryname": "Guinea-Bissau",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "-15.59910",
+        "alt": {
+            "loc": {
+                "longt": "-15.65370",
+                "prov": "GW",
+                "city": "Bissau",
+                "countryname": "Guinea-Bissau",
+                "postal": "OXB",
+                "region": {},
+                "latt": "11.89480"
+            }
+        },
+        "elevation": {},
+        "latt": "11.86638"
+    },
+    "Abidjan, Ivory Coast": {
+        "standard": {
+            "addresst": {},
+            "city": "Abidjan",
+            "prov": "CI",
+            "countryname": "Côte d'Ivoire",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-4.00340",
+        "alt": {
+            "loc": {
+                "longt": "-4.00142",
+                "prov": "CI",
+                "city": "Abidjan",
+                "countryname": "Côte d'Ivoire",
+                "postal": "225",
+                "region": {},
+                "latt": "5.39269"
+            }
+        },
+        "elevation": {},
+        "latt": "5.31396"
+    },
+    "Nairobi, Kenya": {
+        "standard": {
+            "addresst": {},
+            "city": "Nairobi",
+            "prov": "KE",
+            "countryname": "Kenya",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "36.81178",
+        "alt": {
+            "loc": {
+                "longt": "36.82889",
+                "prov": "KE",
+                "city": "Nairobi",
+                "countryname": "Kenya",
+                "postal": "00100",
+                "region": {},
+                "latt": "-1.27843"
+            }
+        },
+        "elevation": {},
+        "latt": "-1.27467"
+    },
+    "Rabat, Morocco": {
+        "standard": {
+            "addresst": {},
+            "city": "Rabat",
+            "prov": "MA",
+            "countryname": "Morocco",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "-6.84499",
+        "alt": {
+            "loc": {
+                "longt": "-6.83485",
+                "prov": "MA",
+                "city": "Rabat",
+                "countryname": "Morocco",
+                "postal": "10000",
+                "region": {},
+                "latt": "34.01751"
+            }
+        },
+        "elevation": {},
+        "latt": "34.00195"
+    },
+    "Antananarivo, Madagascar": {
+        "standard": {
+            "addresst": {},
+            "city": "Antananarivo",
+            "prov": "MG",
+            "countryname": "Madagascar",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "47.52670",
+        "alt": {
+            "loc": {
+                "longt": "47.52444",
+                "prov": "MG",
+                "city": "Antananarivo",
+                "countryname": "Madagascar",
+                "postal": "101",
+                "region": {},
+                "latt": "-18.90071"
+            }
+        },
+        "elevation": {},
+        "latt": "-18.90524"
+    },
+    "Nouakchott, Mauritania": {
+        "standard": {
+            "addresst": {},
+            "city": "Nouakchott",
+            "prov": "MR",
+            "countryname": "Mauritania",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-15.97386",
+        "alt": {},
+        "elevation": {},
+        "latt": "18.09989"
+    },
+    "Lilongwe, Malawi": {
+        "standard": {
+            "addresst": {},
+            "city": "Lilongwe",
+            "prov": "MW",
+            "countryname": "Malawi",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "33.78054",
+        "alt": {
+            "loc": {
+                "longt": "34.05407",
+                "prov": "MW",
+                "city": "Lilongwe",
+                "countryname": "Malawi",
+                "postal": "265",
+                "region": {},
+                "latt": "-14.24678"
+            }
+        },
+        "elevation": {},
+        "latt": "-13.97062"
+    },
+    "Maputo, Mozambique": {
+        "standard": {
+            "addresst": {},
+            "city": "Maputo",
+            "prov": "MZ",
+            "countryname": "Mozambique",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "32.58709",
+        "alt": {
+            "loc": {
+                "longt": "32.58294",
+                "prov": "MZ",
+                "city": "Maputo",
+                "countryname": "Mozambique",
+                "postal": "1100",
+                "region": {},
+                "latt": "-25.97286"
+            }
+        },
+        "elevation": {},
+        "latt": "-25.93607"
+    },
+    "Windhoek, Namibia": {
+        "standard": {
+            "addresst": {},
+            "city": "Windhoek",
+            "prov": "NA",
+            "countryname": "Namibia",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "17.06805",
+        "alt": {
+            "loc": {
+                "longt": "17.08283",
+                "prov": "NA",
+                "city": "Windhoek",
+                "countryname": "Namibia",
+                "postal": "9000",
+                "region": {},
+                "latt": "-22.57682"
+            }
+        },
+        "elevation": {},
+        "latt": "-22.56695"
+    },
+    "Niamey, Nigeria": {
+        "longt": "0.00000",
+        "standard": {
+            "addresst": {},
+            "prov": "NG",
+            "city": {},
+            "countryname": "Nigeria",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "matches": null,
+        "alt": {},
+        "error": {
+            "description": "15. Your request did not produce any results.",
+            "code": "008"
+        },
+        "suggestion": {
+            "region": "NG",
+            "locate": {}
+        },
+        "latt": "0.00000"
+    },
+    "Lagos, Nigeria": {
+        "standard": {
+            "addresst": {},
+            "city": "Lagos",
+            "prov": "NG",
+            "countryname": "Nigeria",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "3.37709",
+        "alt": {
+            "loc": {
+                "longt": "3.32116",
+                "prov": "NG",
+                "city": "Lagos",
+                "countryname": "Nigeria",
+                "postal": "LOS",
+                "region": {},
+                "latt": "6.57737"
+            }
+        },
+        "elevation": {},
+        "latt": "6.48937"
+    },
+    "Dakar, Senegal": {
+        "standard": {
+            "addresst": {},
+            "city": "Dakar",
+            "prov": "SN",
+            "countryname": "Senegal",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "-17.45079",
+        "alt": {
+            "loc": {
+                "longt": "-17.07333",
+                "prov": "SN",
+                "city": "Dakar",
+                "countryname": "Senegal",
+                "postal": "DSS",
+                "region": {},
+                "latt": "14.67000"
+            }
+        },
+        "elevation": {},
+        "latt": "14.70801"
+    },
+    "Freetown, Sierra Leone": {
+        "standard": {
+            "addresst": {},
+            "city": "Freetown",
+            "prov": "SL",
+            "countryname": "Sierra Leone",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-13.24230",
+        "alt": {
+            "loc": {
+                "longt": "-13.23158",
+                "prov": "SL",
+                "city": "Freetown",
+                "countryname": "Sierra Leone",
+                "postal": "232",
+                "region": {},
+                "latt": "8.48773"
+            }
+        },
+        "elevation": {},
+        "latt": "8.45995"
+    },
+    "Capetown, South Africa": {
+        "standard": {
+            "addresst": {},
+            "city": "Capetown",
+            "prov": "ZA",
+            "countryname": "South Africa",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "18.44562",
+        "alt": {
+            "loc": {
+                "longt": "18.48277",
+                "prov": "ZA",
+                "city": "Capetown",
+                "countryname": "South Africa",
+                "postal": "7437",
+                "region": {},
+                "latt": "-33.57862"
+            }
+        },
+        "elevation": {},
+        "latt": "-33.75424"
+    },
+    "Lome, Togo": {
+        "standard": {
+            "addresst": {},
+            "city": "Lomé",
+            "prov": "TG",
+            "countryname": "Togo",
+            "postal": {},
+            "confidence": "0.266666666666667"
+        },
+        "longt": "1.22919",
+        "alt": {
+            "loc": {
+                "longt": "1.21722",
+                "prov": "TG",
+                "city": "Lomé",
+                "countryname": "Togo",
+                "postal": "BP1161",
+                "region": {},
+                "latt": "6.18156"
+            }
+        },
+        "elevation": {},
+        "latt": "6.16186"
+    },
+    "Tunis, Tunisia": {
+        "standard": {
+            "addresst": {},
+            "city": "Tunis",
+            "prov": "TN",
+            "countryname": "Tunisia",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "10.16364",
+        "alt": {
+            "loc": {
+                "longt": "10.17430",
+                "prov": "TN",
+                "city": "Tunis",
+                "countryname": "Tunisia",
+                "postal": "1082",
+                "region": {},
+                "latt": "36.83187"
+            }
+        },
+        "elevation": {},
+        "latt": "36.81663"
+    },
+    "Dar Es Salaam, Tanzania": {
+        "standard": {
+            "addresst": {},
+            "city": "Dar es Salaam",
+            "prov": "TZ",
+            "countryname": "Tanzania",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "39.24343",
+        "alt": {
+            "loc": {
+                "longt": "39.27472",
+                "prov": "TZ",
+                "city": "Dar es Salaam",
+                "countryname": "Tanzania",
+                "postal": "5983",
+                "region": {},
+                "latt": "-6.76863"
+            }
+        },
+        "elevation": {},
+        "latt": "-6.80483"
+    },
+    "Kampala, Uganda": {
+        "standard": {
+            "addresst": {},
+            "city": "Kampala",
+            "prov": "UG",
+            "countryname": "Uganda",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "32.58662",
+        "alt": {
+            "loc": {
+                "longt": "32.62432",
+                "prov": "UG",
+                "city": "Kampala",
+                "countryname": "Uganda",
+                "postal": "256",
+                "region": {},
+                "latt": "0.32661"
+            }
+        },
+        "elevation": {},
+        "latt": "0.32400"
+    },
+    "Lusaka, Zambia": {
+        "standard": {
+            "addresst": {},
+            "city": "Lusaka",
+            "prov": "ZM",
+            "countryname": "Zambia",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "28.29933",
+        "alt": {
+            "loc": {
+                "longt": "28.31663",
+                "prov": "ZM",
+                "city": "Lusaka",
+                "countryname": "Zambia",
+                "postal": "10101",
+                "region": {},
+                "latt": "-15.41643"
+            }
+        },
+        "elevation": {},
+        "latt": "-15.41161"
+    },
+    "Dhaka, Bangladesh": {
+        "standard": {
+            "addresst": {},
+            "city": "Dhaka",
+            "prov": "BD",
+            "countryname": "Bangladesh",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "90.39749",
+        "alt": {
+            "loc": {
+                "longt": "90.36191",
+                "prov": "BD",
+                "city": "Dhaka",
+                "countryname": "Bangladesh",
+                "postal": "1207",
+                "region": {},
+                "latt": "23.76641"
+            }
+        },
+        "elevation": {},
+        "latt": "23.73795"
+    },
+    "Beijing, China": {
+        "standard": {
+            "addresst": {},
+            "city": "Beijing",
+            "prov": "CN",
+            "countryname": "China",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "116.38772",
+        "alt": {
+            "loc": {
+                "longt": "115.97001",
+                "prov": "CN",
+                "city": "Beijing",
+                "countryname": "China",
+                "postal": "102100",
+                "region": {},
+                "latt": "40.45746"
+            }
+        },
+        "elevation": {},
+        "latt": "39.90308"
+    },
+    "Chengdu, China": {
+        "standard": {
+            "addresst": {},
+            "city": "Chengdu",
+            "prov": "CN",
+            "countryname": "China",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "104.06855",
+        "alt": {
+            "loc": {
+                "longt": "103.85301",
+                "prov": "CN",
+                "city": "Chengdu",
+                "countryname": "China",
+                "postal": "611134",
+                "region": {},
+                "latt": "30.70797"
+            }
+        },
+        "elevation": {},
+        "latt": "30.66419"
+    },
+    "Guangzhou, China": {
+        "standard": {
+            "addresst": {},
+            "city": "Guangzhou",
+            "prov": "CN",
+            "countryname": "China",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "113.28844",
+        "alt": {
+            "loc": {
+                "longt": "113.47270",
+                "prov": "CN",
+                "city": "Guangzhou",
+                "countryname": "China",
+                "postal": "510670",
+                "region": {},
+                "latt": "23.14312"
+            }
+        },
+        "elevation": {},
+        "latt": "23.13663"
+    },
+    "Shanghai, China": {
+        "standard": {
+            "addresst": {},
+            "city": "Shanghai",
+            "prov": "CN",
+            "countryname": "China",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "121.45289",
+        "alt": {
+            "loc": {
+                "longt": "121.61006",
+                "prov": "CN",
+                "city": "Shanghai",
+                "countryname": "China",
+                "postal": "201315",
+                "region": {},
+                "latt": "31.13728"
+            }
+        },
+        "elevation": {},
+        "latt": "31.22335"
+    },
+    "Shenyang, China": {
+        "standard": {
+            "addresst": {},
+            "city": "Shenyang",
+            "prov": "CN",
+            "countryname": "China",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "123.44179",
+        "alt": {
+            "loc": {
+                "longt": "123.41831",
+                "prov": "CN",
+                "city": "Shenyang",
+                "countryname": "China",
+                "postal": "110005",
+                "region": {},
+                "latt": "41.75879"
+            }
+        },
+        "elevation": {},
+        "latt": "41.81346"
+    },
+    "Hong Kong, Hong Kong": {
+        "standard": {
+            "addresst": {},
+            "city": "Hong Kong",
+            "prov": "HK",
+            "countryname": "Hong Kong",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "114.18340",
+        "alt": {
+            "loc": {
+                "longt": "114.15215",
+                "prov": "HK",
+                "city": "Hong Kong",
+                "countryname": "Hong Kong",
+                "postal": "HHP",
+                "region": {},
+                "latt": "22.28937"
+            }
+        },
+        "elevation": {},
+        "latt": "22.30570"
+    },
+    "Bombay (Mumbai), India": {
+        "standard": {
+            "addresst": {},
+            "city": "Mumbai",
+            "prov": "IN",
+            "countryname": "India",
+            "postal": {},
+            "confidence": "0.266666666666667"
+        },
+        "longt": "72.86717",
+        "alt": {
+            "loc": {
+                "longt": "72.82686",
+                "prov": "IN",
+                "city": "Mumbai",
+                "countryname": "India",
+                "postal": "400050",
+                "region": {},
+                "latt": "19.05546"
+            }
+        },
+        "elevation": {},
+        "latt": "19.07216"
+    },
+    "Calcutta, India": {
+        "longt": "0.00000",
+        "standard": {
+            "addresst": {},
+            "prov": "IN",
+            "city": {},
+            "countryname": "India",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "matches": null,
+        "alt": {},
+        "error": {
+            "description": "15. Your request did not produce any results.",
+            "code": "008"
+        },
+        "suggestion": {
+            "region": "IN",
+            "locate": {}
+        },
+        "latt": "0.00000"
+    },
+    "Chennai (Madras), India": {
+        "standard": {
+            "addresst": {},
+            "city": "Chennai",
+            "prov": "IN",
+            "countryname": "India",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "80.24091",
+        "alt": {
+            "loc": {
+                "longt": "80.24610",
+                "prov": "IN",
+                "city": "Chennai",
+                "countryname": "India",
+                "postal": "600118",
+                "region": {},
+                "latt": "13.13414"
+            }
+        },
+        "elevation": {},
+        "latt": "13.06841"
+    },
+    "Delhi, India": {
+        "standard": {
+            "addresst": "Old Delhi",
+            "city": "Delhi",
+            "prov": "IN",
+            "countryname": "India",
+            "postal": {},
+            "confidence": "0.45"
+        },
+        "longt": "77.23165",
+        "alt": {},
+        "elevation": {},
+        "latt": "28.65553"
+    },
+    "Jakarta, Indonesia": {
+        "standard": {
+            "addresst": {},
+            "city": "Jakarta",
+            "prov": "ID",
+            "countryname": "Indonesia",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "106.83539",
+        "alt": {
+            "loc": {
+                "longt": "106.89580",
+                "prov": "ID",
+                "city": "Jakarta",
+                "countryname": "Indonesia",
+                "postal": "14240",
+                "region": {},
+                "latt": "-6.15553"
+            }
+        },
+        "elevation": {},
+        "latt": "-6.20906"
+    },
+    "Osaka, Japan": {
+        "standard": {
+            "addresst": {},
+            "city": "Osaka",
+            "prov": "JP",
+            "countryname": "Japan",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "135.50518",
+        "alt": {
+            "loc": {
+                "longt": "135.49279",
+                "prov": "JP",
+                "city": "Osaka",
+                "countryname": "Japan",
+                "postal": "550-0014",
+                "region": {},
+                "latt": "34.67416"
+            }
+        },
+        "elevation": {},
+        "latt": "34.69757"
+    },
+    "Sapporo, Japan": {
+        "standard": {
+            "addresst": {},
+            "city": "Sapporo",
+            "prov": "JP",
+            "countryname": "Japan",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "141.35067",
+        "alt": {},
+        "elevation": {},
+        "latt": "43.06631"
+    },
+    "Tokyo, Japan": {
+        "standard": {
+            "addresst": {},
+            "city": "Tokyo",
+            "prov": "JP",
+            "countryname": "Japan",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "139.68875",
+        "alt": {
+            "loc": {
+                "longt": "139.63989",
+                "prov": "JP",
+                "city": "Tokyo",
+                "countryname": "Japan",
+                "postal": "158-0097",
+                "region": {},
+                "latt": "35.62255"
+            }
+        },
+        "elevation": {},
+        "latt": "35.68046"
+    },
+    "Almaty, Kazakhstan": {
+        "standard": {
+            "addresst": {},
+            "city": "Almaty",
+            "prov": "KZ",
+            "countryname": "Kazakhstan",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "76.92406",
+        "alt": {
+            "loc": {
+                "longt": "76.91526",
+                "prov": "KZ",
+                "city": "Almaty",
+                "countryname": "Kazakhstan",
+                "postal": "050000",
+                "region": {},
+                "latt": "43.23709"
+            }
+        },
+        "elevation": {},
+        "latt": "43.24333"
+    },
+    "Bishkek, Kyrgyzstan": {
+        "standard": {
+            "addresst": {},
+            "city": "Бишкек",
+            "prov": "KG",
+            "countryname": "Kyrgyzstan",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "74.59474",
+        "alt": {
+            "loc": {
+                "longt": "74.58336",
+                "prov": "KG",
+                "city": "Бишкек",
+                "countryname": "Kyrgyzstan",
+                "postal": "720044",
+                "region": {},
+                "latt": "42.84515"
+            }
+        },
+        "elevation": {},
+        "latt": "42.87179"
+    },
+    "Vientiane, Laos": {
+        "standard": {
+            "addresst": "Vientiane",
+            "city": "Laos",
+            "prov": "LA",
+            "countryname": "Lao PDR",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "102.22222",
+        "alt": {},
+        "elevation": {},
+        "latt": "18.61386"
+    },
+    "Kuala Lumpur, Malaysia": {
+        "standard": {
+            "addresst": {},
+            "city": "Kuala Lumpur",
+            "prov": "MY",
+            "countryname": "Malaysia",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "101.68948",
+        "alt": {
+            "loc": {
+                "longt": "101.70745",
+                "prov": "MY",
+                "city": "Kuala Lumpur",
+                "countryname": "Malaysia",
+                "postal": "50200",
+                "region": {},
+                "latt": "3.14791"
+            }
+        },
+        "elevation": {},
+        "latt": "3.14453"
+    },
+    "Ulan-bator, Mongolia": {
+        "longt": "0.00000",
+        "standard": {
+            "addresst": {},
+            "prov": "MN",
+            "city": {},
+            "countryname": "Mongolia",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "matches": null,
+        "alt": {},
+        "error": {
+            "description": "15. Your request did not produce any results.",
+            "code": "008"
+        },
+        "suggestion": {
+            "region": "MN",
+            "locate": {}
+        },
+        "latt": "0.00000"
+    },
+    "Rangoon, Myanmar (Burma)": {
+        "standard": {
+            "stnumber": "2",
+            "addresst": "Myanmar",
+            "postal": {},
+            "region": "MM",
+            "prov": "MM",
+            "city": "Thai-Burma Friendship Bridge",
+            "countryname": "Myanmar",
+            "confidence": "0.6"
+        },
+        "longt": "98.51504",
+        "alt": {},
+        "elevation": {},
+        "latt": "16.69004"
+    },
+    "Katmandu, Nepal": {
+        "standard": {
+            "addresst": {},
+            "city": "Katmandu",
+            "prov": "NP",
+            "countryname": "Nepal",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "85.32663",
+        "alt": {
+            "loc": {
+                "longt": "85.29128",
+                "prov": "NP",
+                "city": "Katmandu",
+                "countryname": "Nepal",
+                "postal": "217",
+                "region": {},
+                "latt": "27.69905"
+            }
+        },
+        "elevation": {},
+        "latt": "27.70628"
+    },
+    "Pyongyang, North Korea": {
+        "standard": {
+            "addresst": {},
+            "city": "Pyongyang",
+            "prov": "KP",
+            "countryname": "North Korea",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "125.74708",
+        "alt": {
+            "loc": {
+                "longt": "125.67000",
+                "prov": "KP",
+                "city": "Pyongyang",
+                "countryname": "North Korea",
+                "postal": "FNJ",
+                "region": {},
+                "latt": "39.22410"
+            }
+        },
+        "elevation": {},
+        "latt": "39.02525"
+    },
+    "Islamabad, Pakistan": {
+        "standard": {
+            "addresst": {},
+            "city": "Islamabad",
+            "prov": "PK",
+            "countryname": "Pakistan",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "73.36002",
+        "alt": {
+            "loc": {
+                "longt": "73.05881",
+                "prov": "PK",
+                "city": "Islamabad",
+                "countryname": "Pakistan",
+                "postal": "44000",
+                "region": {},
+                "latt": "33.66903"
+            }
+        },
+        "elevation": {},
+        "latt": "34.57336"
+    },
+    "Karachi, Pakistan": {
+        "standard": {
+            "addresst": {},
+            "city": "Karachi",
+            "prov": "PK",
+            "countryname": "Pakistan",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "67.08691",
+        "alt": {
+            "loc": {
+                "longt": "67.04150",
+                "prov": "PK",
+                "city": "Karachi",
+                "countryname": "Pakistan",
+                "postal": "74700",
+                "region": {},
+                "latt": "24.93120"
+            }
+        },
+        "elevation": {},
+        "latt": "24.86093"
+    },
+    "Manila, Philippines": {
+        "standard": {
+            "addresst": {},
+            "city": "Manila",
+            "prov": "PH",
+            "countryname": "Philippines",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "120.98962",
+        "alt": {
+            "loc": {
+                "longt": "121.01253",
+                "prov": "PH",
+                "city": "Manila",
+                "countryname": "Philippines",
+                "postal": "1009",
+                "region": {},
+                "latt": "14.57875"
+            }
+        },
+        "elevation": {},
+        "latt": "14.59612"
+    },
+    "Singapore, Singapore": {
+        "standard": {
+            "addresst": {},
+            "city": "Singapore",
+            "prov": "SG",
+            "countryname": "Singapore",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "103.83717",
+        "alt": {
+            "loc": {
+                "longt": "103.79490",
+                "prov": "SG",
+                "city": "Singapore",
+                "countryname": "Singapore",
+                "postal": "288001",
+                "region": {},
+                "latt": "1.34005"
+            }
+        },
+        "elevation": {},
+        "latt": "1.33594"
+    },
+    "Seoul, South Korea": {
+        "standard": {
+            "addresst": {},
+            "city": "Seoul",
+            "prov": "KR",
+            "countryname": "South Korea",
+            "postal": {},
+            "confidence": "0.2"
+        },
+        "longt": "126.98188",
+        "alt": {
+            "loc": {
+                "longt": "126.97474",
+                "prov": "KR",
+                "city": "Seoul",
+                "countryname": "South Korea",
+                "postal": "04637",
+                "region": {},
+                "latt": "37.55470"
+            }
+        },
+        "elevation": {},
+        "latt": "37.56385"
+    },
+    "Taipei, Taiwan": {
+        "standard": {
+            "addresst": "Tai Bei",
+            "city": "Taipei",
+            "prov": "TW",
+            "countryname": "Taiwan",
+            "postal": {},
+            "confidence": "0.4"
+        },
+        "longt": "121.50928",
+        "alt": {},
+        "elevation": {},
+        "latt": "25.04837"
+    },
+    "Dusanbe, Tajikistan": {
+        "longt": "0.00000",
+        "standard": {
+            "addresst": {},
+            "prov": "TJ",
+            "city": {},
+            "countryname": "Tajikistan",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "matches": null,
+        "alt": {},
+        "error": {
+            "description": "15. Your request did not produce any results.",
+            "code": "008"
+        },
+        "suggestion": {
+            "region": "TJ",
+            "locate": {}
+        },
+        "latt": "0.00000"
+    },
+    "Ashabad, Turkmenistan": {
+        "longt": "0.00000",
+        "standard": {
+            "addresst": {},
+            "prov": "TM",
+            "city": {},
+            "countryname": "Turkmenistan",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "matches": null,
+        "alt": {},
+        "error": {
+            "description": "15. Your request did not produce any results.",
+            "code": "008"
+        },
+        "suggestion": {
+            "region": "TM",
+            "locate": {}
+        },
+        "latt": "0.00000"
+    },
+    "Hanoi, Vietnam": {
+        "standard": {
+            "addresst": "Hanoi",
+            "city": "Vietnam",
+            "prov": "VN",
+            "countryname": "Viet Nam",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "105.67556",
+        "alt": {},
+        "elevation": {},
+        "latt": "20.97490"
+    },
+    "Canberra, Australia": {
+        "standard": {
+            "addresst": {},
+            "city": "Canberra",
+            "prov": "AU",
+            "countryname": "Australia",
+            "postal": "OZHBC",
+            "region": {},
+            "confidence": "0.90"
+        },
+        "longt": "149.01388",
+        "alt": {
+            "loc": {
+                "longt": "149.17537",
+                "prov": "AU",
+                "city": "Canberra",
+                "countryname": "Australia",
+                "postal": "2602",
+                "region": "ACT",
+                "latt": "-35.26307"
+            }
+        },
+        "elevation": {},
+        "latt": "-35.26882"
+    },
+    "Perth, Australia": {
+        "standard": {
+            "addresst": {},
+            "city": "Perth",
+            "prov": "AU",
+            "countryname": "Australia",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "115.85866",
+        "alt": {
+            "loc": {
+                "longt": "115.85871",
+                "prov": "AU",
+                "city": "Perth",
+                "countryname": "Australia",
+                "postal": "6000",
+                "region": "WA",
+                "latt": "-31.95055"
+            }
+        },
+        "elevation": {},
+        "latt": "-31.95057"
+    },
+    "Sydney, Australia": {
+        "standard": {
+            "addresst": {},
+            "city": "Sydney",
+            "prov": "AU",
+            "countryname": "Australia",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "151.20776",
+        "alt": {
+            "loc": {
+                "longt": "151.20744",
+                "prov": "AU",
+                "city": "Sydney",
+                "countryname": "Australia",
+                "postal": "2000",
+                "region": "NSW",
+                "latt": "-33.86867"
+            }
+        },
+        "elevation": {},
+        "latt": "-33.86854"
+    },
+    "Brussels, Belgium": {
+        "standard": {
+            "addresst": {},
+            "city": "Brussels",
+            "prov": "BE",
+            "countryname": "Belgium",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "4.36986",
+        "alt": {
+            "loc": {
+                "longt": "4.49033",
+                "prov": "BE",
+                "city": "Brussels",
+                "countryname": "Belgium",
+                "postal": "1970",
+                "region": {},
+                "latt": "50.84219"
+            }
+        },
+        "elevation": {},
+        "latt": "50.85107"
+    },
+    "Nicosia, Cyprus": {
+        "standard": {
+            "addresst": {},
+            "city": "Nicosia",
+            "prov": "CY",
+            "countryname": "Cyprus",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "33.35864",
+        "alt": {
+            "loc": {
+                "longt": "33.38955",
+                "prov": "CY",
+                "city": "Nicosia",
+                "countryname": "Cyprus",
+                "postal": "1026",
+                "region": {},
+                "latt": "35.18668"
+            }
+        },
+        "elevation": {},
+        "latt": "35.18386"
+    },
+    "Prague, Czech Republic": {
+        "standard": {
+            "addresst": {},
+            "city": "Prague",
+            "prov": "CZ",
+            "countryname": "Czech Republic",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "14.44428",
+        "alt": {
+            "loc": {
+                "longt": "14.43272",
+                "prov": "CZ",
+                "city": "Prague",
+                "countryname": "Czech Republic",
+                "postal": "11000",
+                "region": {},
+                "latt": "50.08822"
+            }
+        },
+        "elevation": {},
+        "latt": "50.07658"
+    },
+    "Copenhagen, Denmark": {
+        "standard": {
+            "addresst": {},
+            "city": "Copenhagen",
+            "prov": "DK",
+            "countryname": "Denmark",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "12.54786",
+        "alt": {
+            "loc": {
+                "longt": "12.55124",
+                "prov": "DK",
+                "city": "Copenhagen",
+                "countryname": "Denmark",
+                "postal": "1906",
+                "region": {},
+                "latt": "55.67448"
+            }
+        },
+        "elevation": {},
+        "latt": "55.69059"
+    },
+    "Paris, France": {
+        "standard": {
+            "addresst": {},
+            "city": "paris",
+            "prov": "FR",
+            "countryname": "France",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "2.34280",
+        "alt": {
+            "loc": {
+                "longt": "2.34506",
+                "prov": "FR",
+                "city": "paris",
+                "countryname": "France",
+                "postal": "75018",
+                "region": {},
+                "latt": "48.89090"
+            }
+        },
+        "elevation": {},
+        "latt": "48.85756"
+    },
+    "Bordeaux, France": {
+        "standard": {
+            "addresst": {},
+            "city": "bordeaux",
+            "prov": "FR",
+            "countryname": "France",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-0.58091",
+        "alt": {
+            "loc": {
+                "longt": "-0.58592",
+                "prov": "FR",
+                "city": "bordeaux",
+                "countryname": "France",
+                "postal": "33000",
+                "region": {},
+                "latt": "44.83885"
+            }
+        },
+        "elevation": {},
+        "latt": "44.84235"
+    },
+    "Frankfurt, Germany": {
+        "standard": {
+            "addresst": {},
+            "city": "FRANKFURT",
+            "prov": "DE",
+            "countryname": "Germany",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "8.65399",
+        "alt": {
+            "loc": {
+                "longt": "8.67478",
+                "prov": "DE",
+                "city": "FRANKFURT",
+                "countryname": "Germany",
+                "postal": "60437",
+                "region": {},
+                "latt": "50.19210"
+            }
+        },
+        "elevation": {},
+        "latt": "50.12581"
+    },
+    "Hamburg, Germany": {
+        "standard": {
+            "addresst": {},
+            "city": "Hamburg",
+            "prov": "DE",
+            "countryname": "Germany",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "10.00985",
+        "alt": {
+            "loc": {
+                "longt": "9.87706",
+                "prov": "DE",
+                "city": "Hamburg",
+                "countryname": "Germany",
+                "postal": "22547",
+                "region": {},
+                "latt": "53.59894"
+            }
+        },
+        "elevation": {},
+        "latt": "53.56401"
+    },
+    "Munich, Germany": {
+        "standard": {
+            "addresst": "München",
+            "city": "Munich",
+            "prov": "DE",
+            "countryname": "Germany",
+            "postal": "81929",
+            "confidence": "0.4"
+        },
+        "longt": "11.63660",
+        "alt": {},
+        "elevation": {},
+        "latt": "48.14080"
+    },
+    "Budapest, Hungary": {
+        "standard": {
+            "addresst": {},
+            "city": "Budapest",
+            "prov": "HU",
+            "countryname": "Hungary",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "19.04588",
+        "alt": {
+            "loc": {
+                "longt": "19.00218",
+                "prov": "HU",
+                "city": "Budapest",
+                "countryname": "Hungary",
+                "postal": "1112",
+                "region": {},
+                "latt": "47.47088"
+            }
+        },
+        "elevation": {},
+        "latt": "47.49622"
+    },
+    "Reykjavik, Iceland": {
+        "standard": {
+            "addresst": {},
+            "city": "Reykjavik",
+            "prov": "IS",
+            "countryname": "Iceland",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-21.87968",
+        "alt": {
+            "loc": {
+                "longt": "-21.89562",
+                "prov": "IS",
+                "city": "Reykjavik",
+                "countryname": "Iceland",
+                "postal": "200",
+                "region": {},
+                "latt": "64.11146"
+            }
+        },
+        "elevation": {},
+        "latt": "64.11495"
+    },
+    "Dublin, Ireland": {
+        "standard": {
+            "addresst": {},
+            "city": "Dublin",
+            "prov": "IE",
+            "countryname": "Ireland",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-6.25415",
+        "alt": {
+            "loc": {
+                "longt": "-6.30149",
+                "prov": "IE",
+                "city": "Dublin",
+                "countryname": "Ireland",
+                "postal": "D11Y895",
+                "region": {},
+                "latt": "53.40560"
+            }
+        },
+        "elevation": {},
+        "latt": "53.32306"
+    },
+    "Milan, Italy": {
+        "standard": {
+            "addresst": {},
+            "city": "Milan",
+            "prov": "IT",
+            "countryname": "Italy",
+            "postal": {},
+            "confidence": "0.266666666666667"
+        },
+        "longt": "9.17213",
+        "alt": {
+            "loc": {
+                "longt": "8.72811",
+                "prov": "IT",
+                "city": "Milan",
+                "countryname": "Italy",
+                "postal": "MXP",
+                "region": {},
+                "latt": "45.63060"
+            }
+        },
+        "elevation": {},
+        "latt": "45.47642"
+    },
+    "Skopje, Macedonia": {
+        "standard": {
+            "addresst": "Skopje",
+            "city": "Скопје",
+            "prov": "MK",
+            "countryname": "North Macedonia",
+            "postal": "1040",
+            "confidence": "0.35"
+        },
+        "longt": "21.43330",
+        "alt": {},
+        "elevation": {},
+        "latt": "42.00000"
+    },
+    "Amsterdam, The Netherlands": {
+        "standard": {
+            "addresst": {},
+            "city": "Amsterdam",
+            "prov": "NL",
+            "countryname": "Netherlands",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "4.89668",
+        "alt": {
+            "loc": {
+                "longt": "4.91899",
+                "prov": "NL",
+                "city": "Amsterdam",
+                "countryname": "Netherlands",
+                "postal": "1096GG",
+                "region": {},
+                "latt": "52.33877"
+            }
+        },
+        "elevation": {},
+        "latt": "52.36053"
+    },
+    "Warsaw, Poland": {
+        "standard": {
+            "addresst": "Warszawa",
+            "city": "Warsaw",
+            "prov": "PL",
+            "countryname": "Poland",
+            "postal": "05-077",
+            "confidence": "0.35"
+        },
+        "longt": "21.23400",
+        "alt": {},
+        "elevation": {},
+        "latt": "52.21890"
+    },
+    "Bucharest, Romania": {
+        "standard": {
+            "addresst": {},
+            "city": "Bucharest",
+            "prov": "RO",
+            "countryname": "Romania",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "26.09501",
+        "alt": {
+            "loc": {
+                "longt": "26.06725",
+                "prov": "RO",
+                "city": "Bucharest",
+                "countryname": "Romania",
+                "postal": "052032",
+                "region": {},
+                "latt": "44.39936"
+            }
+        },
+        "elevation": {},
+        "latt": "44.43817"
+    },
+    "Pristina, Serbia-Montenegro": {
+        "longt": "0.00000",
+        "standard": {
+            "addresst": {},
+            "prov": "ME",
+            "city": {},
+            "countryname": "Montenegro",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "matches": null,
+        "alt": {},
+        "error": {
+            "description": "15. Your request did not produce any results.",
+            "code": "008"
+        },
+        "suggestion": {
+            "region": "ME",
+            "locate": {}
+        },
+        "latt": "0.00000"
+    },
+    "Barcelona, Spain": {
+        "standard": {
+            "addresst": {},
+            "city": "Barcelona",
+            "prov": "ES",
+            "countryname": "Spain",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "2.15379",
+        "alt": {
+            "loc": {
+                "longt": "2.19301",
+                "prov": "ES",
+                "city": "Barcelona",
+                "countryname": "Spain",
+                "postal": "08030",
+                "region": {},
+                "latt": "41.43550"
+            }
+        },
+        "elevation": {},
+        "latt": "41.40359"
+    },
+    "Bilbao, Spain": {
+        "standard": {
+            "addresst": {},
+            "city": "Bilbao",
+            "prov": "ES",
+            "countryname": "Spain",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-2.93233",
+        "alt": {
+            "loc": {
+                "longt": "-2.93390",
+                "prov": "ES",
+                "city": "Bilbao",
+                "countryname": "Spain",
+                "postal": "48009",
+                "region": {},
+                "latt": "43.26548"
+            }
+        },
+        "elevation": {},
+        "latt": "43.25990"
+    },
+    "Madrid, Spain": {
+        "standard": {
+            "addresst": {},
+            "city": "Madrid",
+            "prov": "ES",
+            "countryname": "Spain",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-3.67930",
+        "alt": {
+            "loc": {
+                "longt": "-3.64539",
+                "prov": "ES",
+                "city": "Madrid",
+                "countryname": "Spain",
+                "postal": "28017",
+                "region": {},
+                "latt": "40.42882"
+            }
+        },
+        "elevation": {},
+        "latt": "40.42955"
+    },
+    "Bern, Switzerland": {
+        "standard": {
+            "addresst": "Bern",
+            "city": "Bern",
+            "prov": "CH",
+            "countryname": "Switzerland",
+            "postal": "3027",
+            "confidence": "0.4"
+        },
+        "longt": "7.44740",
+        "alt": {},
+        "elevation": {},
+        "latt": "46.94810"
+    },
+    "Kiev, Ukraine": {
+        "standard": {
+            "addresst": {},
+            "city": "Kiev",
+            "prov": "UA",
+            "countryname": "Ukraine",
+            "postal": {},
+            "confidence": "0.233333333333333"
+        },
+        "longt": "30.51019",
+        "alt": {
+            "loc": {
+                "longt": "30.48890",
+                "prov": "UA",
+                "city": "Kiev",
+                "countryname": "Ukraine",
+                "postal": "04212",
+                "region": {},
+                "latt": "50.51211"
+            }
+        },
+        "elevation": {},
+        "latt": "50.46260"
+    },
+    "Belfast, United Kingdom": {
+        "standard": {
+            "addresst": {},
+            "city": "Belfast",
+            "prov": "UK",
+            "countryname": "United Kingdom",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-5.93316",
+        "alt": {
+            "loc": {
+                "longt": "-5.99109",
+                "prov": "UK",
+                "city": "Belfast",
+                "countryname": "United Kingdom",
+                "postal": "BT179JR",
+                "region": {},
+                "latt": "54.54831"
+            }
+        },
+        "elevation": {},
+        "latt": "54.58550"
+    },
+    "London, United Kingdom": {
+        "standard": {
+            "addresst": {},
+            "city": "London",
+            "prov": "UK",
+            "countryname": "United Kingdom",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-0.11214",
+        "alt": {
+            "loc": {
+                "longt": "-0.14159",
+                "prov": "UK",
+                "city": "London",
+                "countryname": "United Kingdom",
+                "postal": "SW1E5RS",
+                "region": {},
+                "latt": "51.49742"
+            }
+        },
+        "elevation": {},
+        "latt": "51.51753"
+    },
+    "Belgrade, Yugoslavia": {
+        "standard": {
+            "addresst": {},
+            "city": "Belgrade",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-111.18856",
+        "alt": {},
+        "elevation": {},
+        "latt": "45.79047"
+    },
+    "Manama, Bahrain": {
+        "standard": {
+            "addresst": {},
+            "city": "Manama",
+            "prov": "BH",
+            "countryname": "Bahrain",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "50.57550",
+        "alt": {
+            "loc": {
+                "longt": "50.63360",
+                "prov": "BH",
+                "city": "Manama",
+                "countryname": "Bahrain",
+                "postal": "BAH",
+                "region": {},
+                "latt": "26.27080"
+            }
+        },
+        "elevation": {},
+        "latt": "26.21715"
+    },
+    "Tel Aviv, Israel": {
+        "standard": {
+            "addresst": "תל אביב",
+            "city": "Tel Aviv",
+            "prov": "IL",
+            "countryname": "Israel",
+            "postal": {},
+            "region": "IL",
+            "confidence": "0.45"
+        },
+        "longt": "34.79604",
+        "alt": {},
+        "elevation": {},
+        "latt": "31.92660"
+    },
+    "Kuwait, Kuwait": {
+        "standard": {
+            "addresst": {},
+            "city": "Kuwait",
+            "prov": "KW",
+            "countryname": "Kuwait",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "48.02944",
+        "alt": {
+            "loc": {
+                "longt": "47.98646",
+                "prov": "KW",
+                "city": "Kuwait",
+                "countryname": "Kuwait",
+                "postal": "13009",
+                "region": {},
+                "latt": "29.36888"
+            }
+        },
+        "elevation": {},
+        "latt": "29.29553"
+    },
+    "Muscat, Oman": {
+        "standard": {
+            "addresst": {},
+            "city": "Muscat",
+            "prov": "OM",
+            "countryname": "Oman",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "58.42139",
+        "alt": {
+            "loc": {
+                "longt": "58.41283",
+                "prov": "OM",
+                "city": "Muscat",
+                "countryname": "Oman",
+                "postal": "133",
+                "region": {},
+                "latt": "23.59678"
+            }
+        },
+        "elevation": {},
+        "latt": "23.58366"
+    },
+    "Dhahran, Saudi Arabia": {
+        "standard": {
+            "addresst": {},
+            "city": "Dhahran",
+            "prov": "SA",
+            "countryname": "Saudi Arabia",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "50.11801",
+        "alt": {
+            "loc": {
+                "longt": "50.15009",
+                "prov": "SA",
+                "city": "Dhahran",
+                "countryname": "Saudi Arabia",
+                "postal": "342586471",
+                "region": {},
+                "latt": "26.33274"
+            }
+        },
+        "elevation": {},
+        "latt": "26.29844"
+    },
+    "Riyadh, Saudi Arabia": {
+        "standard": {
+            "addresst": "الرياض",
+            "city": "Riyadh",
+            "prov": "SA",
+            "countryname": "Saudi Arabia",
+            "postal": {},
+            "confidence": "0.4"
+        },
+        "longt": "46.73761",
+        "alt": {},
+        "elevation": {},
+        "latt": "24.64963"
+    },
+    "Damascus, Syria": {
+        "standard": {
+            "addresst": {},
+            "city": "Damascus",
+            "prov": "SY",
+            "countryname": "Syria",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "36.30014",
+        "alt": {
+            "loc": {
+                "longt": "36.51560",
+                "prov": "SY",
+                "city": "Damascus",
+                "countryname": "Syria",
+                "postal": "DAM",
+                "region": {},
+                "latt": "33.41150"
+            }
+        },
+        "elevation": {},
+        "latt": "33.51300"
+    },
+    "Abu Dhabi, United Arab Emirates": {
+        "standard": {
+            "addresst": {},
+            "city": "Abu Dhabi",
+            "prov": "AE",
+            "countryname": "United Arab Emirates",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "54.51713",
+        "alt": {
+            "loc": {
+                "longt": "54.61030",
+                "prov": "AE",
+                "city": "Abu Dhabi",
+                "countryname": "United Arab Emirates",
+                "postal": "AYM",
+                "region": {},
+                "latt": "24.46700"
+            }
+        },
+        "elevation": {},
+        "latt": "24.41244"
+    },
+    "Calgary, Canada": {
+        "standard": {
+            "addresst": {},
+            "city": "CALGARY",
+            "prov": "CA",
+            "countryname": "Canada",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-114.07198",
+        "alt": {},
+        "elevation": {},
+        "latt": "51.03866"
+    },
+    "Edmonton, Canada": {
+        "standard": {
+            "addresst": {},
+            "city": "EDMONTON",
+            "prov": "CA",
+            "countryname": "Canada",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-113.51412",
+        "alt": {},
+        "elevation": {},
+        "latt": "53.52231"
+    },
+    "Halifax, Canada": {
+        "standard": {
+            "addresst": {},
+            "city": "HALIFAX",
+            "prov": "CA",
+            "countryname": "Canada",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-63.61350",
+        "alt": {},
+        "elevation": {},
+        "latt": "44.66317"
+    },
+    "Montreal, Canada": {
+        "standard": {
+            "addresst": "Monréal",
+            "city": "Montreal",
+            "prov": "CA",
+            "countryname": "Canada",
+            "postal": "H2A2W2",
+            "confidence": "0.4"
+        },
+        "longt": "-73.60240",
+        "alt": {},
+        "elevation": {},
+        "latt": "45.56434"
+    },
+    "Ottawa, Canada": {
+        "standard": {
+            "addresst": {},
+            "city": "OTTAWA",
+            "prov": "CA",
+            "countryname": "Canada",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-75.70531",
+        "alt": {},
+        "elevation": {},
+        "latt": "45.35917"
+    },
+    "Regina, Canada": {
+        "standard": {
+            "addresst": {},
+            "city": "REGINA",
+            "prov": "CA",
+            "countryname": "Canada",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-104.61202",
+        "alt": {},
+        "elevation": {},
+        "latt": "50.45376"
+    },
+    "Vancouver, Canada": {
+        "standard": {
+            "addresst": {},
+            "city": "VANCOUVER",
+            "prov": "CA",
+            "countryname": "Canada",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-123.10299",
+        "alt": {},
+        "elevation": {},
+        "latt": "49.24847"
+    },
+    "Winnipeg, Canada": {
+        "standard": {
+            "addresst": {},
+            "city": "WINNIPEG",
+            "prov": "CA",
+            "countryname": "Canada",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-97.14483",
+        "alt": {},
+        "elevation": {},
+        "latt": "49.88264"
+    },
+    "Mexico City, Mexico": {
+        "standard": {
+            "addresst": {},
+            "city": "Mexico City",
+            "prov": "MX",
+            "countryname": "Mexico",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-99.13289",
+        "alt": {
+            "loc": {
+                "longt": "-99.10566",
+                "prov": "MX",
+                "city": "Mexico City",
+                "countryname": "Mexico",
+                "postal": "15900",
+                "region": {},
+                "latt": "19.41709"
+            }
+        },
+        "elevation": {},
+        "latt": "19.42295"
+    },
+    "Monterrey, Mexico": {
+        "standard": {
+            "addresst": {},
+            "city": "Monterrey",
+            "prov": "MX",
+            "countryname": "Mexico",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-100.33868",
+        "alt": {
+            "loc": {
+                "longt": "-100.31733",
+                "prov": "MX",
+                "city": "Monterrey",
+                "countryname": "Mexico",
+                "postal": "64000",
+                "region": {},
+                "latt": "25.67668"
+            }
+        },
+        "elevation": {},
+        "latt": "25.70575"
+    },
+    "Buenos Aires, Argentina": {
+        "standard": {
+            "addresst": {},
+            "city": "Buenos Aires",
+            "prov": "AR",
+            "countryname": "Argentina",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-58.45228",
+        "alt": {
+            "loc": {
+                "longt": "-58.43733",
+                "prov": "AR",
+                "city": "Buenos Aires",
+                "countryname": "Argentina",
+                "postal": "1414",
+                "region": {},
+                "latt": "-34.59424"
+            }
+        },
+        "elevation": {},
+        "latt": "-34.60983"
+    },
+    "Hamilton, Bermuda": {
+        "standard": {
+            "addresst": {},
+            "city": "Hamilton",
+            "prov": "BM",
+            "countryname": "Bermuda",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-64.78311",
+        "alt": {
+            "loc": {
+                "longt": "-64.71611",
+                "prov": "BM",
+                "city": "Hamilton",
+                "countryname": "Bermuda",
+                "postal": "CR04",
+                "region": {},
+                "latt": "32.34783"
+            }
+        },
+        "elevation": {},
+        "latt": "32.29539"
+    },
+    "Belize City, Belize": {
+        "standard": {
+            "addresst": {},
+            "city": "Belize City",
+            "prov": "BZ",
+            "countryname": "Belize",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-88.20546",
+        "alt": {
+            "loc": {
+                "longt": "-88.18592",
+                "prov": "BZ",
+                "city": "Belize City",
+                "countryname": "Belize",
+                "postal": "1021",
+                "region": {},
+                "latt": "17.49134"
+            }
+        },
+        "elevation": {},
+        "latt": "17.50384"
+    },
+    "La Paz, Bolivia": {
+        "standard": {
+            "addresst": {},
+            "city": "La Paz",
+            "prov": "BO",
+            "countryname": "Bolivia",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-68.14560",
+        "alt": {
+            "loc": {
+                "longt": "-68.10726",
+                "prov": "BO",
+                "city": "La Paz",
+                "countryname": "Bolivia",
+                "postal": "LPZ",
+                "region": {},
+                "latt": "-16.51502"
+            }
+        },
+        "elevation": {},
+        "latt": "-16.50387"
+    },
+    "Havana, Cuba": {
+        "standard": {
+            "addresst": "Habana",
+            "city": "Havana",
+            "prov": "CU",
+            "countryname": "Cuba",
+            "postal": {},
+            "confidence": "0.4"
+        },
+        "longt": "-82.36342",
+        "alt": {},
+        "elevation": {},
+        "latt": "23.06027"
+    },
+    "Guayaquil, Equador": {
+        "standard": {
+            "addresst": {},
+            "city": "Guayaquil",
+            "prov": "DO",
+            "countryname": "Dominican Republic",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-69.93933",
+        "alt": {},
+        "elevation": {},
+        "latt": "18.46526"
+    },
+    "Quito, Equador": {
+        "standard": {
+            "addresst": {},
+            "city": "QUITO",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.266666666666667"
+        },
+        "longt": "-121.48669",
+        "alt": {},
+        "elevation": {},
+        "latt": "37.90318"
+    },
+    "Guatemala City, Guatemala": {
+        "standard": {
+            "addresst": {},
+            "city": "Guatemala City",
+            "prov": "GT",
+            "countryname": "Guatemala",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-90.51180",
+        "alt": {
+            "loc": {
+                "longt": "-90.51422",
+                "prov": "GT",
+                "city": "Guatemala City",
+                "countryname": "Guatemala",
+                "postal": "50201",
+                "region": {},
+                "latt": "14.62555"
+            }
+        },
+        "elevation": {},
+        "latt": "14.62750"
+    },
+    "Georgetown, Guyana": {
+        "standard": {
+            "addresst": {},
+            "city": "Georgetown",
+            "prov": "GY",
+            "countryname": "Guyana",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-58.14861",
+        "alt": {
+            "loc": {
+                "longt": "-58.16624",
+                "prov": "GY",
+                "city": "Georgetown",
+                "countryname": "Guyana",
+                "postal": "00592",
+                "region": {},
+                "latt": "6.81121"
+            }
+        },
+        "elevation": {},
+        "latt": "6.80110"
+    },
+    "Panama City, Panama": {
+        "standard": {
+            "addresst": {},
+            "city": "Panama City",
+            "prov": "PA",
+            "countryname": "Panama",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-79.48583",
+        "alt": {
+            "loc": {
+                "longt": "-79.59960",
+                "prov": "PA",
+                "city": "Panama City",
+                "countryname": "Panama",
+                "postal": "BLB",
+                "region": {},
+                "latt": "8.91479"
+            }
+        },
+        "elevation": {},
+        "latt": "9.02436"
+    },
+    "Lima, Peru": {
+        "standard": {
+            "addresst": {},
+            "city": "Lima",
+            "prov": "PE",
+            "countryname": "Peru",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "-77.03397",
+        "alt": {
+            "loc": {
+                "longt": "-77.02938",
+                "prov": "PE",
+                "city": "Lima",
+                "countryname": "Peru",
+                "postal": "15074",
+                "region": {},
+                "latt": "-12.12448"
+            }
+        },
+        "elevation": {},
+        "latt": "-12.04946"
+    },
+    "Montvideo, Uruguay": {
+        "longt": "0.00000",
+        "standard": {
+            "addresst": {},
+            "prov": "UY",
+            "city": {},
+            "countryname": "Uruguay",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "matches": null,
+        "alt": {},
+        "error": {
+            "description": "15. Your request did not produce any results.",
+            "code": "008"
+        },
+        "suggestion": {
+            "region": "UY",
+            "locate": {}
+        },
+        "latt": "0.00000"
+    },
+    "Birmingham, Alabama, US": {
+        "standard": {
+            "stnumber": "1318",
+            "addresst": "ALABAMA ST",
+            "postal": "35217-3099",
+            "region": "AL",
+            "prov": "US",
+            "city": "BIRMINGHAM",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-86.78056",
+        "alt": {},
+        "elevation": {},
+        "latt": "33.57294"
+    },
+    "Mobile, Alabama, US": {
+        "standard": {
+            "stnumber": "1400",
+            "addresst": "Alabama ST",
+            "postal": "36604",
+            "region": "AL",
+            "prov": "US",
+            "city": "MOBILE",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-88.06915",
+        "alt": {},
+        "elevation": {},
+        "latt": "30.67658"
+    },
+    "Anchorage, Alaska, US": {
+        "standard": {
+            "addresst": {},
+            "city": "ANCHORAGE",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-149.80382",
+        "alt": {},
+        "elevation": {},
+        "latt": "61.18604"
+    },
+    "Fairbanks, Alaska, US": {
+        "standard": {
+            "addresst": {},
+            "city": "FAIRBANKS",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-147.72879",
+        "alt": {},
+        "elevation": {},
+        "latt": "64.86290"
+    },
+    "Phoenix, Arizona, US": {
+        "standard": {
+            "addresst": {},
+            "city": "PHOENIX",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-112.08976",
+        "alt": {},
+        "elevation": {},
+        "latt": "33.53272"
+    },
+    "Tucson, Arizona, US": {
+        "standard": {
+            "stnumber": "629",
+            "addresst": "ARIZONA AVE S",
+            "postal": "85701-2751",
+            "region": "AZ",
+            "prov": "US",
+            "city": "TUCSON",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-110.96755",
+        "alt": {},
+        "elevation": {},
+        "latt": "32.21423"
+    },
+    "Fresno, California, US": {
+        "standard": {
+            "stnumber": "547",
+            "addresst": "CALIFORNIA AVE",
+            "postal": "93706",
+            "region": "CA",
+            "prov": "US",
+            "city": "Fresno",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-119.80548",
+        "alt": {},
+        "elevation": {},
+        "latt": "36.72182"
+    },
+    "Los Angeles, California, US": {
+        "standard": {
+            "addresst": {},
+            "city": "LOS ANGELES",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-118.29757",
+        "alt": {},
+        "elevation": {},
+        "latt": "34.04014"
+    },
+    "Sacramento, California, US": {
+        "standard": {
+            "addresst": {},
+            "city": "CALIFORNIA",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-76.52772",
+        "alt": {},
+        "elevation": {},
+        "latt": "38.29828"
+    },
+    "Colorado Springs, Colorado, US": {
+        "standard": {
+            "addresst": {},
+            "city": "Colorado Springs",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-104.76896",
+        "alt": {},
+        "elevation": {},
+        "latt": "38.87575"
+    },
+    "Denver, Colorado, US": {
+        "standard": {
+            "stnumber": "5340",
+            "addresst": "COLORADO AVE",
+            "postal": "80232",
+            "region": "CO",
+            "prov": "US",
+            "city": "Denver",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-105.05516",
+        "alt": {},
+        "elevation": {},
+        "latt": "39.68391"
+    },
+    "Grand Junction, Colorado, US": {
+        "standard": {
+            "addresst": {},
+            "city": "GRAND JUNCTION",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-108.54937",
+        "alt": {},
+        "elevation": {},
+        "latt": "39.07939"
+    },
+    "Pueblo, Colorado, US": {
+        "standard": {
+            "stnumber": "131",
+            "addresst": "COLORADO AVE",
+            "postal": "81004-4289",
+            "region": "CO",
+            "prov": "US",
+            "city": "PUEBLO",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-104.62166",
+        "alt": {},
+        "elevation": {},
+        "latt": "38.25926"
+    },
+    "Bridgeport, Connecticut, US": {
+        "standard": {
+            "addresst": "Connecticut",
+            "city": "Bridgeport",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": "06607",
+            "confidence": "0.35"
+        },
+        "longt": "-73.16567",
+        "alt": {},
+        "elevation": {},
+        "latt": "41.18012"
+    },
+    "Wilmington, Delaware, US": {
+        "standard": {
+            "addresst": {},
+            "city": "WILMINGTON",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-75.57261",
+        "alt": {},
+        "elevation": {},
+        "latt": "39.76061"
+    },
+    "Washington, District of Columbia, US": {
+        "standard": {
+            "addresst": {},
+            "city": "Columbia",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.233333333333333"
+        },
+        "longt": "-92.32894",
+        "alt": {},
+        "elevation": {},
+        "latt": "38.95075"
+    },
+    "Daytona Beach, Florida, US": {
+        "standard": {
+            "addresst": {},
+            "city": "Daytona Beach",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-81.04515",
+        "alt": {},
+        "elevation": {},
+        "latt": "29.20502"
+    },
+    "Jacksonville, Florida, US": {
+        "standard": {
+            "stnumber": "1819",
+            "addresst": "FLORIDA AVE",
+            "postal": "32206-3925",
+            "region": "FL",
+            "prov": "US",
+            "city": "JACKSONVILLE",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-81.64230",
+        "alt": {},
+        "elevation": {},
+        "latt": "30.34540"
+    },
+    "Miami Beach, Florida, US": {
+        "standard": {
+            "stnumber": "2901",
+            "addresst": "FLORIDA AVE",
+            "postal": "33133-5212",
+            "region": "FL",
+            "prov": "US",
+            "city": "MIAMI",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-80.24051",
+        "alt": {},
+        "elevation": {},
+        "latt": "25.72910"
+    },
+    "Orlando, Florida, US": {
+        "standard": {
+            "stnumber": "620",
+            "addresst": "FLORIDA ST",
+            "postal": "32806-1370",
+            "region": "FL",
+            "prov": "US",
+            "city": "ORLANDO",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-81.36918",
+        "alt": {},
+        "elevation": {},
+        "latt": "28.52922"
+    },
+    "Tallahassee, Florida, US": {
+        "standard": {
+            "stnumber": "2020",
+            "addresst": "FLORIDA AVE",
+            "postal": "32303-5171",
+            "region": "FL",
+            "prov": "US",
+            "city": "TALLAHASSEE",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-84.26876",
+        "alt": {},
+        "elevation": {},
+        "latt": "30.46844"
+    },
+    "Columbus, Georgia, US": {
+        "standard": {
+            "addresst": {},
+            "city": "COLUMBUS",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-114.18702",
+        "alt": {},
+        "elevation": {},
+        "latt": "48.36264"
+    },
+    "Macon, Georgia, US": {
+        "standard": {
+            "addresst": {},
+            "city": "GEORGIA",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.266666666666667"
+        },
+        "longt": "-73.13081",
+        "alt": {},
+        "elevation": {},
+        "latt": "44.72376"
+    },
+    "Savannah, Georgia, US": {
+        "standard": {
+            "addresst": {},
+            "city": "SAVANNAH",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-81.11189",
+        "alt": {},
+        "elevation": {},
+        "latt": "32.03334"
+    },
+    "Pocatello, Idaho, US": {
+        "standard": {
+            "addresst": "Idaho",
+            "city": "Pocatello",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": "83204",
+            "confidence": "0.4"
+        },
+        "longt": "-112.44683",
+        "alt": {},
+        "elevation": {},
+        "latt": "42.85416"
+    },
+    "Peoria, Illinois, US": {
+        "standard": {
+            "stnumber": "100",
+            "addresst": "ILLINOIS AVE",
+            "postal": "61607-27ND",
+            "region": "IL",
+            "prov": "US",
+            "city": "PEORIA",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-89.65200",
+        "alt": {},
+        "elevation": {},
+        "latt": "40.63904"
+    },
+    "Rockford, Illinois, US": {
+        "standard": {
+            "addresst": {},
+            "city": "ROCKFORD",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-89.06289",
+        "alt": {},
+        "elevation": {},
+        "latt": "42.27053"
+    },
+    "Springfield, Illinois, US": {
+        "standard": {
+            "addresst": {},
+            "city": "SPRINGFIELD",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-93.29335",
+        "alt": {},
+        "elevation": {},
+        "latt": "37.19194"
+    },
+    "South Bend, Indiana, US": {
+        "standard": {
+            "stnumber": "923",
+            "addresst": "INDIANA AVE",
+            "postal": "46613",
+            "region": "IN",
+            "prov": "US",
+            "city": "SOUTH BEND",
+            "countryname": "United States of America",
+            "confidence": "0.8"
+        },
+        "longt": "-86.23703",
+        "alt": {},
+        "elevation": {},
+        "latt": "41.65845"
+    },
+    "Des Moines, Iowa, US": {
+        "standard": {
+            "addresst": {},
+            "city": "DES MOINES",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-93.61988",
+        "alt": {},
+        "elevation": {},
+        "latt": "41.59501"
+    },
+    "Sioux City, Iowa, US": {
+        "standard": {
+            "addresst": {},
+            "city": "Sioux City",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.233333333333333"
+        },
+        "longt": "-96.39086",
+        "alt": {},
+        "elevation": {},
+        "latt": "42.50155"
+    },
+    "Goodland, Kansas, US": {
+        "standard": {
+            "addresst": {},
+            "city": "GOODLAND",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.2"
+        },
+        "longt": "-101.72500",
+        "alt": {},
+        "elevation": {},
+        "latt": "39.34974"
+    },
+    "Topeka, Kansas, US": {
+        "standard": {
+            "addresst": {},
+            "city": "KANSAS",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-75.91400",
+        "alt": {},
+        "elevation": {},
+        "latt": "39.72004"
+    },
+    "Wichita, Kansas, US": {
+        "standard": {
+            "addresst": "Kansas",
+            "city": "Wichita",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": "67211",
+            "confidence": "0.35"
+        },
+        "longt": "-97.31592",
+        "alt": {},
+        "elevation": {},
+        "latt": "37.66518"
+    },
+    "Lexington, Kentucky, US": {
+        "standard": {
+            "addresst": {},
+            "city": "LEXINGTON",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-81.23917",
+        "alt": {},
+        "elevation": {},
+        "latt": "33.96155"
+    },
+    "Louisville, Kentucky, US": {
+        "standard": {
+            "addresst": {},
+            "city": "LOUISVILLE",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-85.70117",
+        "alt": {},
+        "elevation": {},
+        "latt": "38.19551"
+    },
+    "Paducah, Kentucky, US": {
+        "standard": {
+            "stnumber": "3201",
+            "addresst": "KENTUCKY AVE",
+            "postal": "42001-4439",
+            "region": "KY",
+            "prov": "US",
+            "city": "PADUCAH",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-88.63696",
+        "alt": {},
+        "elevation": {},
+        "latt": "37.06865"
+    },
+    "Baton Rouge, Louisiana, US": {
+        "standard": {
+            "addresst": {},
+            "city": "BATON ROUGE",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-91.07630",
+        "alt": {},
+        "elevation": {},
+        "latt": "30.44499"
+    },
+    "Lake Charles, Louisiana, US": {
+        "standard": {
+            "addresst": {},
+            "city": "LAKE CHARLES",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-93.20740",
+        "alt": {},
+        "elevation": {},
+        "latt": "30.21502"
+    },
+    "New Orleans, Louisiana, US": {
+        "standard": {
+            "addresst": {},
+            "city": "NEW ORLEANS",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-90.13426",
+        "alt": {},
+        "elevation": {},
+        "latt": "29.94928"
+    },
+    "Caribou, Maine, US": {
+        "standard": {
+            "addresst": {},
+            "city": "CARIBOU",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.2"
+        },
+        "longt": "-68.00983",
+        "alt": {},
+        "elevation": {},
+        "latt": "46.86925"
+    },
+    "Portland, Maine, US": {
+        "standard": {
+            "stnumber": "50",
+            "addresst": "MAINE AVE",
+            "postal": "04103-3822",
+            "region": "ME",
+            "prov": "US",
+            "city": "PORTLAND",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-70.28251",
+        "alt": {},
+        "elevation": {},
+        "latt": "43.69624"
+    },
+    "Baltimore, Maryland, US": {
+        "standard": {
+            "addresst": {},
+            "city": "BALTIMORE",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-76.61444",
+        "alt": {},
+        "elevation": {},
+        "latt": "39.32210"
+    },
+    "Boston, Massachusetts, US": {
+        "standard": {
+            "stnumber": "199",
+            "addresst": "MASSACHUSETTS AVE",
+            "postal": "02115-3031",
+            "region": "MA",
+            "prov": "US",
+            "city": "BOSTON",
+            "countryname": "United States of America",
+            "confidence": "0.8"
+        },
+        "longt": "-71.08673",
+        "alt": {},
+        "elevation": {},
+        "latt": "42.34560"
+    },
+    "Detroit, Michigan, US": {
+        "standard": {
+            "addresst": "Michigan",
+            "city": "Detroit",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": "48227",
+            "confidence": "0.35"
+        },
+        "longt": "-83.09358",
+        "alt": {},
+        "elevation": {},
+        "latt": "42.33088"
+    },
+    "Flint, Michigan, US": {
+        "standard": {
+            "stnumber": "3401",
+            "addresst": "MICHIGAN AVE",
+            "postal": "48505-4514",
+            "region": "MI",
+            "prov": "US",
+            "city": "FLINT",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-83.68105",
+        "alt": {},
+        "elevation": {},
+        "latt": "43.04576"
+    },
+    "Grand Rapids, Michigan, US": {
+        "standard": {
+            "addresst": {},
+            "city": "Grand Rapids",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-85.66189",
+        "alt": {},
+        "elevation": {},
+        "latt": "42.93006"
+    },
+    "Lansing, Michigan, US": {
+        "standard": {
+            "addresst": "Michigan Bldg",
+            "city": "Lansing",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": "48917",
+            "confidence": "0.3"
+        },
+        "longt": "-84.62351",
+        "alt": {},
+        "elevation": {},
+        "latt": "42.73401"
+    },
+    "Duluth, Minnesota, US": {
+        "standard": {
+            "stnumber": "940",
+            "addresst": "MINNESOTA AVE",
+            "postal": "55802-2495",
+            "region": "MN",
+            "prov": "US",
+            "city": "DULUTH",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-92.09106",
+        "alt": {},
+        "elevation": {},
+        "latt": "46.77495"
+    },
+    "Minneapolis St. Paul, Minnesota, US": {
+        "standard": {
+            "stnumber": "395",
+            "addresst": "MINNESOTA AVE",
+            "postal": "55421",
+            "region": "MN",
+            "prov": "US",
+            "city": "MINNEAPOLIS",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-93.11672",
+        "alt": {},
+        "elevation": {},
+        "latt": "45.01015"
+    },
+    "Jackson, Mississippi, US": {
+        "standard": {
+            "stnumber": "321",
+            "addresst": "MISSISSIPPI ST",
+            "postal": "39201-1099",
+            "region": "MS",
+            "prov": "US",
+            "city": "JACKSON",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-90.18286",
+        "alt": {},
+        "elevation": {},
+        "latt": "32.30282"
+    },
+    "Tupelo, Mississippi, US": {
+        "standard": {
+            "addresst": {},
+            "city": "MISSISSIPPI",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-94.40748",
+        "alt": {},
+        "elevation": {},
+        "latt": "35.09743"
+    },
+    "Kansas City, Missouri, US": {
+        "standard": {
+            "stnumber": "1001",
+            "addresst": "MISSOURI AVE",
+            "postal": "64106-1242",
+            "region": "MO",
+            "prov": "US",
+            "city": "KANSAS CITY",
+            "countryname": "United States of America",
+            "confidence": "0.8"
+        },
+        "longt": "-94.57187",
+        "alt": {},
+        "elevation": {},
+        "latt": "39.10950"
+    },
+    "Springfield, Missouri, US": {
+        "standard": {
+            "addresst": {},
+            "city": "SPRINGFIELD",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-93.29335",
+        "alt": {},
+        "elevation": {},
+        "latt": "37.19194"
+    },
+    "St Louis, Missouri, US": {
+        "standard": {
+            "addresst": {},
+            "city": "Missouri",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.266666666666667"
+        },
+        "longt": "-95.53963",
+        "alt": {},
+        "elevation": {},
+        "latt": "29.58316"
+    },
+    "Billings, Montana, US": {
+        "standard": {
+            "addresst": {},
+            "city": "BILLINGS",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-108.53779",
+        "alt": {},
+        "elevation": {},
+        "latt": "45.78990"
+    },
+    "Great Falls, Montana, US": {
+        "standard": {
+            "addresst": {},
+            "city": "GREAT FALLS",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-111.29603",
+        "alt": {},
+        "elevation": {},
+        "latt": "47.50033"
+    },
+    "Helena, Montana, US": {
+        "standard": {
+            "stnumber": "3075",
+            "addresst": "N MONTANA AVE",
+            "postal": "59601",
+            "region": "MT",
+            "prov": "US",
+            "city": "HELENA",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-112.01907",
+        "alt": {},
+        "elevation": {},
+        "latt": "46.61479"
+    },
+    "Lincoln, Nebraska, US": {
+        "standard": {
+            "addresst": {},
+            "city": "NEBRASKA",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-78.82642",
+        "alt": {},
+        "elevation": {},
+        "latt": "37.35742"
+    },
+    "North Platte, Nebraska, US": {
+        "standard": {
+            "addresst": {},
+            "city": "North Platte",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-100.77759",
+        "alt": {},
+        "elevation": {},
+        "latt": "41.12959"
+    },
+    "Omaha, Nebraska, US": {
+        "standard": {
+            "stnumber": "4500",
+            "addresst": "NEBRASKA AVE",
+            "postal": "68104-1465",
+            "region": "NE",
+            "prov": "US",
+            "city": "OMAHA",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-95.98164",
+        "alt": {},
+        "elevation": {},
+        "latt": "41.31486"
+    },
+    "Reno, Nevada, US": {
+        "standard": {
+            "stnumber": "1050",
+            "addresst": "NEVADA ST",
+            "postal": "89503-2936",
+            "region": "NV",
+            "prov": "US",
+            "city": "RENO",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-119.82205",
+        "alt": {},
+        "elevation": {},
+        "latt": "39.53708"
+    },
+    "Las Vegas, Nevada, US": {
+        "standard": {
+            "addresst": {},
+            "city": "LAS VEGAS",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-115.17404",
+        "alt": {},
+        "elevation": {},
+        "latt": "36.18211"
+    },
+    "Concord, New Hampshire, US": {
+        "standard": {
+            "addresst": {},
+            "city": "NEW HAMPSHIRE",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-83.96306",
+        "alt": {},
+        "elevation": {},
+        "latt": "40.55178"
+    },
+    "Atlantic City, New Jersey, US": {
+        "standard": {
+            "addresst": {},
+            "city": "ATLANTIC CITY",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-74.43857",
+        "alt": {},
+        "elevation": {},
+        "latt": "39.36312"
+    },
+    "Newark, New Jersey, US": {
+        "standard": {
+            "addresst": {},
+            "city": "JERSEY",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-74.06877",
+        "alt": {},
+        "elevation": {},
+        "latt": "40.72230"
+    },
+    "Albuquerque, New Mexico, US": {
+        "standard": {
+            "addresst": {},
+            "city": "Albuquerque",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-106.62069",
+        "alt": {},
+        "elevation": {},
+        "latt": "35.11462"
+    },
+    "Albany, New York, US": {
+        "standard": {
+            "addresst": {},
+            "city": "NEW YORK",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.266666666666667"
+        },
+        "longt": "-73.95861",
+        "alt": {},
+        "elevation": {},
+        "latt": "40.68908"
+    },
+    "Buffalo, New York, US": {
+        "standard": {
+            "addresst": {},
+            "city": "NEW YORK",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.266666666666667"
+        },
+        "longt": "-73.95861",
+        "alt": {},
+        "elevation": {},
+        "latt": "40.68908"
+    },
+    "New York City, New York, US": {
+        "standard": {
+            "addresst": {},
+            "city": "New York City",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-73.98583",
+        "alt": {},
+        "elevation": {},
+        "latt": "40.74823"
+    },
+    "Rochester, New York, US": {
+        "standard": {
+            "stnumber": "2",
+            "addresst": "NEW YORK ST",
+            "postal": "14611-2318",
+            "region": "NY",
+            "prov": "US",
+            "city": "ROCHESTER",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-77.62895",
+        "alt": {},
+        "elevation": {},
+        "latt": "43.15299"
+    },
+    "Syracuse, New York, US": {
+        "standard": {
+            "addresst": {},
+            "city": "SYRACUSE",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.266666666666667"
+        },
+        "longt": "-76.14682",
+        "alt": {},
+        "elevation": {},
+        "latt": "43.04619"
+    },
+    "Asheville, North Carolina, US": {
+        "standard": {
+            "addresst": {},
+            "city": "North Carolina",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-82.61379",
+        "alt": {},
+        "elevation": {},
+        "latt": "36.00952"
+    },
+    "Charlotte, North Carolina, US": {
+        "standard": {
+            "addresst": {},
+            "city": "North Carolina",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-82.61379",
+        "alt": {},
+        "elevation": {},
+        "latt": "36.00952"
+    },
+    "Greensboro, North Carolina, US": {
+        "standard": {
+            "addresst": {},
+            "city": "North Carolina",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-82.61379",
+        "alt": {},
+        "elevation": {},
+        "latt": "36.00952"
+    },
+    "Raleigh Durham, North Carolina, US": {
+        "standard": {
+            "stnumber": "5101",
+            "addresst": "DURHAM RD",
+            "postal": "27613-7429",
+            "region": "NC",
+            "prov": "US",
+            "city": "RALEIGH",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-78.70000",
+        "alt": {},
+        "elevation": {},
+        "latt": "35.98810"
+    },
+    "Fargo, North Dakota, US": {
+        "standard": {
+            "addresst": {},
+            "city": "DAKOTA",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "-94.20146",
+        "alt": {},
+        "elevation": {},
+        "latt": "42.72147"
+    },
+    "Akron Canton, Ohio, US": {
+        "standard": {
+            "stnumber": "1367",
+            "addresst": "CANTON RD",
+            "postal": "44312-3999",
+            "region": "OH",
+            "prov": "US",
+            "city": "AKRON",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-81.42531",
+        "alt": {},
+        "elevation": {},
+        "latt": "41.02932"
+    },
+    "Cincinnati, Ohio, US": {
+        "standard": {
+            "stnumber": "2024",
+            "addresst": "OHIO AVE",
+            "postal": "45202-4900",
+            "region": "OH",
+            "prov": "US",
+            "city": "CINCINNATI",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-84.51791",
+        "alt": {},
+        "elevation": {},
+        "latt": "39.11965"
+    },
+    "Cleveland, Ohio, US": {
+        "standard": {
+            "stnumber": "14201",
+            "addresst": "OHIO AVE",
+            "postal": "44128-3105",
+            "region": "OH",
+            "prov": "US",
+            "city": "CLEVELAND",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-81.58140",
+        "alt": {},
+        "elevation": {},
+        "latt": "41.43137"
+    },
+    "Columbus, Ohio, US": {
+        "standard": {
+            "stnumber": "948",
+            "addresst": "S OHIO AVE",
+            "postal": "43206",
+            "region": "OH",
+            "prov": "US",
+            "city": "COLUMBUS",
+            "countryname": "United States of America",
+            "confidence": "0.8"
+        },
+        "longt": "-82.97142",
+        "alt": {},
+        "elevation": {},
+        "latt": "39.94568"
+    },
+    "Dayton, Ohio, US": {
+        "standard": {
+            "addresst": {},
+            "city": "DAYTON",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-84.18875",
+        "alt": {},
+        "elevation": {},
+        "latt": "39.74292"
+    },
+    "Toledo, Ohio, US": {
+        "standard": {
+            "addresst": {},
+            "city": "TOLEDO",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-83.59193",
+        "alt": {},
+        "elevation": {},
+        "latt": "41.65943"
+    },
+    "Youngstown, Ohio, US": {
+        "standard": {
+            "stnumber": "8250",
+            "addresst": "Ohio ST",
+            "postal": "44438",
+            "region": "OH",
+            "prov": "US",
+            "city": "YOUNGSTOWN",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-80.51984",
+        "alt": {},
+        "elevation": {},
+        "latt": "41.22891"
+    },
+    "Oklahoma City, Oklahoma, US": {
+        "standard": {
+            "addresst": {},
+            "city": "Oklahoma City",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-97.50905",
+        "alt": {},
+        "elevation": {},
+        "latt": "35.50220"
+    },
+    "Tulsa, Oklahoma, US": {
+        "standard": {
+            "stnumber": "16603",
+            "addresst": "Oklahoma ST",
+            "postal": "74116",
+            "region": "OK",
+            "prov": "US",
+            "city": "TULSA",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-95.79073",
+        "alt": {},
+        "elevation": {},
+        "latt": "36.17526"
+    },
+    "Eugene, Oregon, US": {
+        "standard": {
+            "stnumber": "3264",
+            "addresst": "OREGON AVE",
+            "postal": "97478",
+            "region": "OR",
+            "prov": "US",
+            "city": "EUGENE",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-122.98020",
+        "alt": {},
+        "elevation": {},
+        "latt": "44.04392"
+    },
+    "Medford, Oregon, US": {
+        "standard": {
+            "addresst": {},
+            "city": "MEDFORD",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.2"
+        },
+        "longt": "-122.86665",
+        "alt": {},
+        "elevation": {},
+        "latt": "42.33743"
+    },
+    "Portland, Oregon, US": {
+        "standard": {
+            "stnumber": "21720",
+            "addresst": "Oregon ST",
+            "postal": "97140",
+            "region": "OR",
+            "prov": "US",
+            "city": "Portland",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-122.82193",
+        "alt": {},
+        "elevation": {},
+        "latt": "45.36163"
+    },
+    "Salem, Oregon, US": {
+        "standard": {
+            "addresst": {},
+            "city": "OREGON",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.233333333333333"
+        },
+        "longt": "-83.45272",
+        "alt": {},
+        "elevation": {},
+        "latt": "41.64830"
+    },
+    "Allentown, Pennsylvania, US": {
+        "standard": {
+            "stnumber": "1999",
+            "addresst": "PENNSYLVANIA AVE",
+            "postal": "18109-3111",
+            "region": "PA",
+            "prov": "US",
+            "city": "ALLENTOWN",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-75.42588",
+        "alt": {},
+        "elevation": {},
+        "latt": "40.64014"
+    },
+    "Erie, Pennsylvania, US": {
+        "standard": {
+            "stnumber": "720",
+            "addresst": "PENNSYLVANIA AVE",
+            "postal": "16503-1559",
+            "region": "PA",
+            "prov": "US",
+            "city": "ERIE",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-80.05992",
+        "alt": {},
+        "elevation": {},
+        "latt": "42.13693"
+    },
+    "Harrisburg, Pennsylvania, US": {
+        "standard": {
+            "stnumber": "1008",
+            "addresst": "PENNSYLVANIA AVE",
+            "postal": "17111-3016",
+            "region": "PA",
+            "prov": "US",
+            "city": "HARRISBURG",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-76.77133",
+        "alt": {},
+        "elevation": {},
+        "latt": "40.23733"
+    },
+    "Philadelphia, Pennsylvania, US": {
+        "standard": {
+            "addresst": {},
+            "city": "PHILADELPHIA",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-75.13603",
+        "alt": {},
+        "elevation": {},
+        "latt": "40.00156"
+    },
+    "Pittsburgh, Pennsylvania, US": {
+        "standard": {
+            "stnumber": "6",
+            "addresst": "PENNSYLVANIA AVE",
+            "postal": "15202-1125",
+            "region": "PA",
+            "prov": "US",
+            "city": "PITTSBURGH",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-80.05358",
+        "alt": {},
+        "elevation": {},
+        "latt": "40.50614"
+    },
+    "Wilkes Barre, Pennsylvania, US": {
+        "standard": {
+            "addresst": {},
+            "city": "PENNSYLVANIA",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-89.76617",
+        "alt": {},
+        "elevation": {},
+        "latt": "40.24669"
+    },
+    "Rhode Island, Rhode Island, US": {
+        "standard": {
+            "addresst": {},
+            "city": "Rhode Island",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "-96.25333",
+        "alt": {},
+        "elevation": {},
+        "latt": "31.80655"
+    },
+    "Charleston, South Carolina, US": {
+        "standard": {
+            "addresst": {},
+            "city": "CHARLESTON",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-79.98343",
+        "alt": {},
+        "elevation": {},
+        "latt": "32.79813"
+    },
+    "Columbia, South Carolina, US": {
+        "standard": {
+            "addresst": {},
+            "city": "CAROLINA",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-65.97741",
+        "alt": {},
+        "elevation": {},
+        "latt": "18.40337"
+    },
+    "Rapid City, South Dakota, US": {
+        "standard": {
+            "addresst": {},
+            "city": "Rapid City",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-103.24252",
+        "alt": {},
+        "elevation": {},
+        "latt": "44.06757"
+    },
+    "Sioux Falls, South Dakota, US": {
+        "standard": {
+            "addresst": {},
+            "city": "SIOUX FALLS",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-96.73692",
+        "alt": {},
+        "elevation": {},
+        "latt": "43.52894"
+    },
+    "Knoxville, Tennessee, US": {
+        "standard": {
+            "addresst": {},
+            "city": "TENNESSEE",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-90.86528",
+        "alt": {},
+        "elevation": {},
+        "latt": "40.40725"
+    },
+    "Memphis, Tennessee, US": {
+        "standard": {
+            "addresst": "Tennessee",
+            "city": "Memphis",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": "38103",
+            "confidence": "0.35"
+        },
+        "longt": "-90.06298",
+        "alt": {},
+        "elevation": {},
+        "latt": "35.13167"
+    },
+    "Nashville, Tennessee, US": {
+        "standard": {
+            "addresst": {},
+            "city": "TENNESSEE",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-90.86528",
+        "alt": {},
+        "elevation": {},
+        "latt": "40.40725"
+    },
+    "Abilene, Texas, US": {
+        "standard": {
+            "addresst": {},
+            "city": "ABILENE",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-99.74830",
+        "alt": {},
+        "elevation": {},
+        "latt": "32.43313"
+    },
+    "Amarillo, Texas, US": {
+        "standard": {
+            "addresst": {},
+            "city": "AMARILLO",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-101.86240",
+        "alt": {},
+        "elevation": {},
+        "latt": "35.18422"
+    },
+    "Austin, Texas, US": {
+        "standard": {
+            "stnumber": "506",
+            "addresst": "TEXAS AVE",
+            "postal": "78705-1742",
+            "region": "TX",
+            "prov": "US",
+            "city": "AUSTIN",
+            "countryname": "United States of America",
+            "confidence": "0.8"
+        },
+        "longt": "-97.73030",
+        "alt": {},
+        "elevation": {},
+        "latt": "30.29777"
+    },
+    "Brownsville, Texas, US": {
+        "standard": {
+            "addresst": {},
+            "city": "BROWNSVILLE",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-97.47524",
+        "alt": {},
+        "elevation": {},
+        "latt": "25.93699"
+    },
+    "Corpus Christi, Texas, US": {
+        "standard": {
+            "addresst": {},
+            "city": "CORPUS CHRISTI",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-97.40730",
+        "alt": {},
+        "elevation": {},
+        "latt": "27.73462"
+    },
+    "El Paso, Texas, US": {
+        "standard": {
+            "addresst": "Texas",
+            "city": "El Paso",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": "79912",
+            "confidence": "0.4"
+        },
+        "longt": "-106.47475",
+        "alt": {},
+        "elevation": {},
+        "latt": "31.76717"
+    },
+    "Lubbock, Texas, US": {
+        "standard": {
+            "addresst": {},
+            "city": "LUBBOCK",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-101.89685",
+        "alt": {},
+        "elevation": {},
+        "latt": "33.55289"
+    },
+    "Midland Odessa, Texas, US": {
+        "standard": {
+            "addresst": {},
+            "city": "MIDLAND",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-102.10562",
+        "alt": {},
+        "elevation": {},
+        "latt": "32.00389"
+    },
+    "San Antonio, Texas, US": {
+        "standard": {
+            "addresst": {},
+            "city": "SAN ANTONIO",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-98.53093",
+        "alt": {},
+        "elevation": {},
+        "latt": "29.48423"
+    },
+    "Waco, Texas, US": {
+        "standard": {
+            "addresst": "Texas",
+            "city": "Waco",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": "76705",
+            "confidence": "0.35"
+        },
+        "longt": "-97.08214",
+        "alt": {},
+        "elevation": {},
+        "latt": "31.60501"
+    },
+    "Wichita Falls, Texas, US": {
+        "standard": {
+            "addresst": {},
+            "city": "WICHITA FALLS",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-98.51021",
+        "alt": {},
+        "elevation": {},
+        "latt": "33.89543"
+    },
+    "Salt Lake City, Utah, US": {
+        "standard": {
+            "stnumber": "1379",
+            "addresst": "Utah ST",
+            "postal": "84104",
+            "region": "UT",
+            "prov": "US",
+            "city": "SALT LAKE CITY",
+            "countryname": "United States of America",
+            "confidence": "0.9"
+        },
+        "longt": "-111.93660",
+        "alt": {},
+        "elevation": {},
+        "latt": "40.73922"
+    },
+    "Burlington, Vermont, US": {
+        "standard": {
+            "addresst": {},
+            "city": "BURLINGTON",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-79.43127",
+        "alt": {},
+        "elevation": {},
+        "latt": "36.12708"
+    },
+    "Norfolk, Virginia, US": {
+        "standard": {
+            "addresst": {},
+            "city": "VIRGINIA",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-92.53920",
+        "alt": {},
+        "elevation": {},
+        "latt": "47.49373"
+    },
+    "Richmond, Virginia, US": {
+        "standard": {
+            "addresst": {},
+            "city": "RICHMOND",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-77.48087",
+        "alt": {},
+        "elevation": {},
+        "latt": "37.52162"
+    },
+    "Roanoke, Virginia, US": {
+        "standard": {
+            "addresst": {},
+            "city": "VIRGINIA",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-92.53920",
+        "alt": {},
+        "elevation": {},
+        "latt": "47.49373"
+    },
+    "Spokane, Washington, US": {
+        "standard": {
+            "stnumber": "810",
+            "addresst": "Washington ST",
+            "postal": "99205",
+            "region": "WA",
+            "prov": "US",
+            "city": "Spokane",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-117.58674",
+        "alt": {},
+        "elevation": {},
+        "latt": "47.48548"
+    },
+    "Yakima, Washington, US": {
+        "standard": {
+            "addresst": {},
+            "city": "WASHINGTON",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.266666666666667"
+        },
+        "longt": "-77.01015",
+        "alt": {},
+        "elevation": {},
+        "latt": "38.91194"
+    },
+    "Milwaukee, Wisconsin, US": {
+        "standard": {
+            "addresst": {},
+            "city": "MILWAUKEE",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-87.95963",
+        "alt": {},
+        "elevation": {},
+        "latt": "43.05251"
+    },
+    "Casper, Wyoming, US": {
+        "standard": {
+            "addresst": {},
+            "city": "WYOMING",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-90.39675",
+        "alt": {},
+        "elevation": {},
+        "latt": "31.93962"
+    },
+    "Cheyenne, Wyoming, US": {
+        "standard": {
+            "addresst": {},
+            "city": "CHEYENNE",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-104.79761",
+        "alt": {},
+        "elevation": {},
+        "latt": "41.15060"
+    },
+    "Colombo, Sri Lanka": {
+        "standard": {
+            "addresst": {},
+            "city": "Colombo",
+            "prov": "LK",
+            "countryname": "Sri Lanka",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "79.89400",
+        "alt": {
+            "loc": {
+                "longt": "79.87022",
+                "prov": "LK",
+                "city": "Colombo",
+                "countryname": "Sri Lanka",
+                "postal": "00700",
+                "region": {},
+                "latt": "6.90960"
+            }
+        },
+        "elevation": {},
+        "latt": "6.93476"
+    },
+    "Bangkok, Thailand": {
+        "standard": {
+            "addresst": {},
+            "city": "Bangkok",
+            "prov": "TH",
+            "countryname": "Thailand",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "100.50804",
+        "alt": {
+            "loc": {
+                "longt": "100.57292",
+                "prov": "TH",
+                "city": "Bangkok",
+                "countryname": "Thailand",
+                "postal": "10110",
+                "region": {},
+                "latt": "13.72994"
+            }
+        },
+        "elevation": {},
+        "latt": "13.74138"
+    },
+    "Tashkent, Uzbekistan": {
+        "standard": {
+            "addresst": "Toshkent",
+            "city": "Tashkent",
+            "prov": "UZ",
+            "countryname": "Uzbekistan",
+            "postal": {},
+            "confidence": "0.4"
+        },
+        "longt": "69.28806",
+        "alt": {},
+        "elevation": {},
+        "latt": "41.29343"
+    },
+    "Brisbane, Australia": {
+        "standard": {
+            "addresst": {},
+            "city": "Brisbane",
+            "prov": "AU",
+            "countryname": "Australia",
+            "postal": "YMAT",
+            "region": {},
+            "confidence": "0.90"
+        },
+        "longt": "153.02560",
+        "alt": {
+            "loc": {
+                "longt": "153.02559",
+                "prov": "AU",
+                "city": "Brisbane",
+                "countryname": "Australia",
+                "postal": "4000",
+                "region": "QLD",
+                "latt": "-27.46949"
+            }
+        },
+        "elevation": {},
+        "latt": "-27.46950"
+    },
+    "Melbourne, Australia": {
+        "standard": {
+            "addresst": {},
+            "city": "Melbourne",
+            "prov": "AU",
+            "countryname": "Australia",
+            "postal": "MEB",
+            "region": {},
+            "confidence": "0.90"
+        },
+        "longt": "144.96313",
+        "alt": {
+            "loc": {
+                "longt": "144.96139",
+                "prov": "AU",
+                "city": "Melbourne",
+                "countryname": "Australia",
+                "postal": "3000",
+                "region": "VIC",
+                "latt": "-37.81262"
+            }
+        },
+        "elevation": {},
+        "latt": "-37.81585"
+    },
+    "Auckland, New Zealand": {
+        "standard": {
+            "addresst": {},
+            "city": "Auckland",
+            "prov": "NZ",
+            "countryname": "New Zealand",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "174.78190",
+        "alt": {
+            "loc": {
+                "longt": "174.75673",
+                "prov": "NZ",
+                "city": "Auckland",
+                "countryname": "New Zealand",
+                "postal": "1042",
+                "region": {},
+                "latt": "-36.92296"
+            }
+        },
+        "elevation": {},
+        "latt": "-36.86327"
+    },
+    "Tirana, Albania": {
+        "standard": {
+            "addresst": {},
+            "city": "Tirana",
+            "prov": "AL",
+            "countryname": "Albania",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "19.81808",
+        "alt": {
+            "loc": {
+                "longt": "19.82991",
+                "prov": "AL",
+                "city": "Tirana",
+                "countryname": "Albania",
+                "postal": "1000",
+                "region": {},
+                "latt": "41.32286"
+            }
+        },
+        "elevation": {},
+        "latt": "41.33316"
+    },
+    "Vienna, Austria": {
+        "standard": {
+            "addresst": "Wieden",
+            "city": "Vienna",
+            "prov": "AT",
+            "countryname": "Austria",
+            "postal": {},
+            "confidence": "0.4"
+        },
+        "longt": "16.37136",
+        "alt": {},
+        "elevation": {},
+        "latt": "48.19231"
+    },
+    "Minsk, Belarus": {
+        "standard": {
+            "addresst": {},
+            "city": "Minsk",
+            "prov": "BY",
+            "countryname": "Belarus",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "27.57245",
+        "alt": {
+            "loc": {
+                "longt": "27.56121",
+                "prov": "BY",
+                "city": "Minsk",
+                "countryname": "Belarus",
+                "postal": "220030",
+                "region": {},
+                "latt": "53.90301"
+            }
+        },
+        "elevation": {},
+        "latt": "53.90125"
+    },
+    "Sofia, Bulgaria": {
+        "standard": {
+            "addresst": "София",
+            "city": "Sofia",
+            "prov": "BG",
+            "countryname": "Bulgaria",
+            "postal": {},
+            "confidence": "0.4"
+        },
+        "longt": "23.35924",
+        "alt": {},
+        "elevation": {},
+        "latt": "42.77026"
+    },
+    "Zagreb, Croatia": {
+        "standard": {
+            "addresst": {},
+            "city": "Zagreb",
+            "prov": "HR",
+            "countryname": "Croatia",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "15.97613",
+        "alt": {
+            "loc": {
+                "longt": "15.97155",
+                "prov": "HR",
+                "city": "Zagreb",
+                "countryname": "Croatia",
+                "postal": "10000",
+                "region": {},
+                "latt": "45.80594"
+            }
+        },
+        "elevation": {},
+        "latt": "45.81763"
+    },
+    "Helsinki, Finland": {
+        "standard": {
+            "addresst": {},
+            "city": "Helsinki",
+            "prov": "FI",
+            "countryname": "Finland",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "24.96935",
+        "alt": {
+            "loc": {
+                "longt": "25.02073",
+                "prov": "FI",
+                "city": "Helsinki",
+                "countryname": "Finland",
+                "postal": "00730",
+                "region": {},
+                "latt": "60.26621"
+            }
+        },
+        "elevation": {},
+        "latt": "60.21673"
+    },
+    "Bonn, Germany": {
+        "standard": {
+            "addresst": {},
+            "city": "Bonn",
+            "prov": "DE",
+            "countryname": "Germany",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "7.11148",
+        "alt": {
+            "loc": {
+                "longt": "7.16245",
+                "prov": "DE",
+                "city": "Bonn",
+                "countryname": "Germany",
+                "postal": "53229",
+                "region": {},
+                "latt": "50.74596"
+            }
+        },
+        "elevation": {},
+        "latt": "50.71630"
+    },
+    "Tbilisi, Georgia": {
+        "standard": {
+            "addresst": {},
+            "city": "Tbilisi",
+            "prov": "GE",
+            "countryname": "Georgia",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "44.84875",
+        "alt": {
+            "loc": {
+                "longt": "44.73384",
+                "prov": "GE",
+                "city": "Tbilisi",
+                "countryname": "Georgia",
+                "postal": "0186",
+                "region": {},
+                "latt": "41.72713"
+            }
+        },
+        "elevation": {},
+        "latt": "41.69516"
+    },
+    "Athens, Greece": {
+        "standard": {
+            "addresst": "Αθήνα",
+            "city": "Athens",
+            "prov": "GR",
+            "countryname": "Greece",
+            "postal": {},
+            "confidence": "0.4"
+        },
+        "longt": "23.72062",
+        "alt": {},
+        "elevation": {},
+        "latt": "37.99231"
+    },
+    "Rome, Italy": {
+        "standard": {
+            "addresst": {},
+            "city": "Rome",
+            "prov": "IT",
+            "countryname": "Italy",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "12.48634",
+        "alt": {
+            "loc": {
+                "longt": "12.56744",
+                "prov": "IT",
+                "city": "Rome",
+                "countryname": "Italy",
+                "postal": "00156",
+                "region": {},
+                "latt": "41.92998"
+            }
+        },
+        "elevation": {},
+        "latt": "41.87839"
+    },
+    "Riga, Latvia": {
+        "standard": {
+            "addresst": {},
+            "city": "Rīga",
+            "prov": "LV",
+            "countryname": "Latvia",
+            "postal": {},
+            "confidence": "0.266666666666667"
+        },
+        "longt": "24.12363",
+        "alt": {
+            "loc": {
+                "longt": "24.18682",
+                "prov": "LV",
+                "city": "Rīga",
+                "countryname": "Latvia",
+                "postal": "LV1006",
+                "region": {},
+                "latt": "56.97616"
+            }
+        },
+        "elevation": {},
+        "latt": "56.95623"
+    },
+    "Oslo, Norway": {
+        "standard": {
+            "addresst": {},
+            "city": "Oslo",
+            "prov": "NO",
+            "countryname": "Norway",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "10.77569",
+        "alt": {
+            "loc": {
+                "longt": "10.71439",
+                "prov": "NO",
+                "city": "Oslo",
+                "countryname": "Norway",
+                "postal": "0150",
+                "region": {},
+                "latt": "59.88941"
+            }
+        },
+        "elevation": {},
+        "latt": "59.91694"
+    },
+    "Lisbon, Portugal": {
+        "standard": {
+            "addresst": "Lisboa",
+            "city": "Lisbon",
+            "prov": "PT",
+            "countryname": "Portugal",
+            "postal": {},
+            "confidence": "0.4"
+        },
+        "longt": "-9.15188",
+        "alt": {},
+        "elevation": {},
+        "latt": "38.74422"
+    },
+    "Moscow, Russia": {
+        "standard": {
+            "addresst": {},
+            "city": "Moscow",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-116.97958",
+        "alt": {},
+        "elevation": {},
+        "latt": "46.73288"
+    },
+    "Yerevan, Russia": {
+        "standard": {
+            "addresst": "Yerevan",
+            "city": "Erewan",
+            "prov": "AM",
+            "countryname": "Armenia",
+            "postal": {},
+            "confidence": "0.35"
+        },
+        "longt": "44.50791",
+        "alt": {},
+        "elevation": {},
+        "latt": "40.15447"
+    },
+    "Bratislava, Slovakia": {
+        "standard": {
+            "addresst": {},
+            "city": "Bratislava",
+            "prov": "SK",
+            "countryname": "Slovakia",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "17.11888",
+        "alt": {
+            "loc": {
+                "longt": "17.14875",
+                "prov": "SK",
+                "city": "Bratislava",
+                "countryname": "Slovakia",
+                "postal": "85110",
+                "region": {},
+                "latt": "48.05085"
+            }
+        },
+        "elevation": {},
+        "latt": "48.16395"
+    },
+    "Stockholm, Sweden": {
+        "standard": {
+            "addresst": {},
+            "city": "Stockholm",
+            "prov": "SE",
+            "countryname": "Sweden",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "18.04879",
+        "alt": {
+            "loc": {
+                "longt": "17.91961",
+                "prov": "SE",
+                "city": "Stockholm",
+                "countryname": "Sweden",
+                "postal": "19270",
+                "region": {},
+                "latt": "59.45310"
+            }
+        },
+        "elevation": {},
+        "latt": "59.33096"
+    },
+    "Geneva, Switzerland": {
+        "standard": {
+            "addresst": "Genève",
+            "city": "Geneva",
+            "prov": "CH",
+            "countryname": "Switzerland",
+            "postal": {},
+            "confidence": "0.4"
+        },
+        "longt": "6.14231",
+        "alt": {},
+        "elevation": {},
+        "latt": "46.20472"
+    },
+    "Zurich, Switzerland": {
+        "standard": {
+            "addresst": "Zürich",
+            "city": "Zuerich",
+            "prov": "CH",
+            "countryname": "Switzerland",
+            "postal": "8064",
+            "confidence": "0.45"
+        },
+        "longt": "8.55000",
+        "alt": {},
+        "elevation": {},
+        "latt": "47.36670"
+    },
+    "Amman, Jordan": {
+        "standard": {
+            "addresst": "عمان",
+            "city": "Amman",
+            "prov": "JO",
+            "countryname": "Jordan",
+            "postal": {},
+            "confidence": "0.4"
+        },
+        "longt": "35.90414",
+        "alt": {},
+        "elevation": {},
+        "latt": "31.95436"
+    },
+    "Beirut, Lebanon": {
+        "standard": {
+            "addresst": {},
+            "city": "Beirut",
+            "prov": "LB",
+            "countryname": "Lebanon",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "35.53858",
+        "alt": {
+            "loc": {
+                "longt": "35.53680",
+                "prov": "LB",
+                "city": "Beirut",
+                "countryname": "Lebanon",
+                "postal": "55555",
+                "region": {},
+                "latt": "33.86974"
+            }
+        },
+        "elevation": {},
+        "latt": "33.87589"
+    },
+    "Doha, Qatar": {
+        "standard": {
+            "addresst": {},
+            "city": "Doha",
+            "prov": "QA",
+            "countryname": "Qatar",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "51.51495",
+        "alt": {
+            "loc": {
+                "longt": "51.49291",
+                "prov": "QA",
+                "city": "Doha",
+                "countryname": "Qatar",
+                "postal": "00000",
+                "region": {},
+                "latt": "25.31158"
+            }
+        },
+        "elevation": {},
+        "latt": "25.29757"
+    },
+    "Ankara, Turkey": {
+        "standard": {
+            "addresst": {},
+            "city": "Ankara",
+            "prov": "TR",
+            "countryname": "Turkey",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "32.84647",
+        "alt": {
+            "loc": {
+                "longt": "32.79552",
+                "prov": "TR",
+                "city": "Ankara",
+                "countryname": "Turkey",
+                "postal": "06830",
+                "region": {},
+                "latt": "39.79205"
+            }
+        },
+        "elevation": {},
+        "latt": "39.93677"
+    },
+    "Istanbul, Turkey": {
+        "standard": {
+            "addresst": {},
+            "city": "Istanbul",
+            "prov": "TR",
+            "countryname": "Turkey",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "28.99392",
+        "alt": {
+            "loc": {
+                "longt": "29.33337",
+                "prov": "TR",
+                "city": "Istanbul",
+                "countryname": "Turkey",
+                "postal": "34953",
+                "region": {},
+                "latt": "40.87576"
+            }
+        },
+        "elevation": {},
+        "latt": "41.02935"
+    },
+    "Dubai, United Arab Emirates": {
+        "standard": {
+            "addresst": {},
+            "city": "Dubai",
+            "prov": "AE",
+            "countryname": "United Arab Emirates",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "55.19848",
+        "alt": {
+            "loc": {
+                "longt": "55.31077",
+                "prov": "AE",
+                "city": "Dubai",
+                "countryname": "United Arab Emirates",
+                "postal": "PostBox",
+                "region": {},
+                "latt": "25.27114"
+            }
+        },
+        "elevation": {},
+        "latt": "25.04953"
+    },
+    "Quebec, Canada": {
+        "standard": {
+            "addresst": "Quebec Quebec",
+            "city": "Quebec",
+            "prov": "CA",
+            "countryname": "Canada",
+            "postal": "G2K2G7",
+            "confidence": "0.4"
+        },
+        "longt": "-71.29645",
+        "alt": {},
+        "elevation": {},
+        "latt": "46.83791"
+    },
+    "Toronto, Canada": {
+        "standard": {
+            "addresst": {},
+            "city": "TORONTO",
+            "prov": "CA",
+            "countryname": "Canada",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-79.41946",
+        "alt": {},
+        "elevation": {},
+        "latt": "43.70638"
+    },
+    "Guadalajara, Mexico": {
+        "standard": {
+            "addresst": {},
+            "city": "Guadalajara",
+            "prov": "MX",
+            "countryname": "Mexico",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-103.33243",
+        "alt": {
+            "loc": {
+                "longt": "-103.35465",
+                "prov": "MX",
+                "city": "Guadalajara",
+                "countryname": "Mexico",
+                "postal": "44200",
+                "region": {},
+                "latt": "20.68178"
+            }
+        },
+        "elevation": {},
+        "latt": "20.67306"
+    },
+    "Nassau, Bahamas": {
+        "standard": {
+            "addresst": {},
+            "city": "Nassau",
+            "prov": "BS",
+            "countryname": "Bahamas",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-77.35141",
+        "alt": {
+            "loc": {
+                "longt": "-77.46620",
+                "prov": "BS",
+                "city": "Nassau",
+                "countryname": "Bahamas",
+                "postal": "NAS",
+                "region": {},
+                "latt": "25.03900"
+            }
+        },
+        "elevation": {},
+        "latt": "25.04911"
+    },
+    "Bridgetown, Barbados": {
+        "standard": {
+            "addresst": {},
+            "city": "Bridgetown",
+            "prov": "BB",
+            "countryname": "Barbados",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-59.59984",
+        "alt": {
+            "loc": {
+                "longt": "-59.58366",
+                "prov": "BB",
+                "city": "Bridgetown",
+                "countryname": "Barbados",
+                "postal": "BB11093",
+                "region": {},
+                "latt": "13.10434"
+            }
+        },
+        "elevation": {},
+        "latt": "13.11760"
+    },
+    "Brasilia, Brazil": {
+        "standard": {
+            "addresst": {},
+            "city": "Brasilia",
+            "prov": "BR",
+            "countryname": "Brazil",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-47.97349",
+        "alt": {
+            "loc": {
+                "longt": "-47.90616",
+                "prov": "BR",
+                "city": "Brasilia",
+                "countryname": "Brazil",
+                "postal": "00000-000",
+                "region": {},
+                "latt": "-15.88566"
+            }
+        },
+        "elevation": {},
+        "latt": "-15.81962"
+    },
+    "Rio de Janeiro, Brazil": {
+        "standard": {
+            "addresst": {},
+            "city": "Rio de Janeiro",
+            "prov": "BR",
+            "countryname": "Brazil",
+            "postal": {},
+            "confidence": "0.3"
+        },
+        "longt": "-43.39352",
+        "alt": {
+            "loc": {
+                "longt": "-43.28044",
+                "prov": "BR",
+                "city": "Rio de Janeiro",
+                "countryname": "Brazil",
+                "postal": "99999-999",
+                "region": {},
+                "latt": "-22.88995"
+            }
+        },
+        "elevation": {},
+        "latt": "-22.89286"
+    },
+    "Sao Paulo, Brazil": {
+        "standard": {
+            "addresst": {},
+            "city": "São Paulo",
+            "prov": "BR",
+            "countryname": "Brazil",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-37.54154",
+        "alt": {
+            "loc": {
+                "longt": "-46.62500",
+                "prov": "BR",
+                "city": "São Paulo",
+                "countryname": "Brazil",
+                "postal": "09999-999",
+                "region": {},
+                "latt": "-23.60008"
+            }
+        },
+        "elevation": {},
+        "latt": "-10.54420"
+    },
+    "Bogota, Colombia": {
+        "standard": {
+            "addresst": {},
+            "city": "Bogota",
+            "prov": "CO",
+            "countryname": "Colombia",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-74.11439",
+        "alt": {
+            "loc": {
+                "longt": "-74.04694",
+                "prov": "CO",
+                "city": "Bogota",
+                "countryname": "Colombia",
+                "postal": "110111",
+                "region": {},
+                "latt": "4.69129"
+            }
+        },
+        "elevation": {},
+        "latt": "4.60769"
+    },
+    "San Jose, Costa Rica": {
+        "standard": {
+            "addresst": {},
+            "city": "San Jose",
+            "prov": "CR",
+            "countryname": "Costa Rica",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-84.08202",
+        "alt": {
+            "loc": {
+                "longt": "-84.13980",
+                "prov": "CR",
+                "city": "San Jose",
+                "countryname": "Costa Rica",
+                "postal": "SYQ",
+                "region": {},
+                "latt": "9.95705"
+            }
+        },
+        "elevation": {},
+        "latt": "9.93836"
+    },
+    "Santo Domingo, Dominican Republic": {
+        "standard": {
+            "addresst": {},
+            "city": "Santo Domingo",
+            "prov": "DO",
+            "countryname": "Dominican Republic",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-69.90475",
+        "alt": {
+            "loc": {
+                "longt": "-69.92504",
+                "prov": "DO",
+                "city": "Santo Domingo",
+                "countryname": "Dominican Republic",
+                "postal": "10122",
+                "region": {},
+                "latt": "18.47767"
+            }
+        },
+        "elevation": {},
+        "latt": "18.49126"
+    },
+    "Port au Prince, Haiti": {
+        "standard": {
+            "addresst": "Pòtoprens",
+            "city": "Port-Au-Prince",
+            "prov": "HT",
+            "countryname": "Haiti",
+            "postal": {},
+            "confidence": "0.35"
+        },
+        "longt": "-72.33612",
+        "alt": {},
+        "elevation": {},
+        "latt": "18.53137"
+    },
+    "Managua, Nicaragua": {
+        "standard": {
+            "addresst": {},
+            "city": "Managua",
+            "prov": "NI",
+            "countryname": "Nicaragua",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-86.25273",
+        "alt": {
+            "loc": {
+                "longt": "-86.27811",
+                "prov": "NI",
+                "city": "Managua",
+                "countryname": "Nicaragua",
+                "postal": "12066",
+                "region": {},
+                "latt": "12.14153"
+            }
+        },
+        "elevation": {},
+        "latt": "12.12989"
+    },
+    "Paramaribo, Suriname": {
+        "standard": {
+            "addresst": {},
+            "city": "Paramaribo",
+            "prov": "SR",
+            "countryname": "Suriname",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-55.17690",
+        "alt": {
+            "loc": {
+                "longt": "-55.16734",
+                "prov": "SR",
+                "city": "Paramaribo",
+                "countryname": "Suriname",
+                "postal": "597",
+                "region": {},
+                "latt": "5.82837"
+            }
+        },
+        "elevation": {},
+        "latt": "5.83515"
+    },
+    "Caracas, Venezuela": {
+        "standard": {
+            "addresst": {},
+            "city": "Caracas",
+            "prov": "VE",
+            "countryname": "Venezuela",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-66.88235",
+        "alt": {
+            "loc": {
+                "longt": "-66.90852",
+                "prov": "VE",
+                "city": "Caracas",
+                "countryname": "Venezuela",
+                "postal": "1010",
+                "region": {},
+                "latt": "10.50546"
+            }
+        },
+        "elevation": {},
+        "latt": "10.48527"
+    },
+    "Huntsville, Alabama, US": {
+        "standard": {
+            "addresst": {},
+            "city": "HUNTSVILLE",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-86.59470",
+        "alt": {},
+        "elevation": {},
+        "latt": "34.72043"
+    },
+    "Montgomery, Alabama, US": {
+        "standard": {
+            "stnumber": "555",
+            "addresst": "ALABAMA ST",
+            "postal": "36104-4395",
+            "region": "AL",
+            "prov": "US",
+            "city": "MONTGOMERY",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-86.30164",
+        "alt": {},
+        "elevation": {},
+        "latt": "32.37424"
+    },
+    "Juneau, Alaska, US": {
+        "standard": {
+            "addresst": {},
+            "city": "ALASKA",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-85.48083",
+        "alt": {},
+        "elevation": {},
+        "latt": "42.84394"
+    },
+    "Flagstaff, Arizona, US": {
+        "standard": {
+            "addresst": {},
+            "city": "FLAGSTAFF",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-111.61000",
+        "alt": {},
+        "elevation": {},
+        "latt": "35.21503"
+    },
+    "Yuma, Arizona, US": {
+        "standard": {
+            "stnumber": "2470",
+            "addresst": "ARIZONA AVE S",
+            "postal": "85364-8598",
+            "region": "AZ",
+            "prov": "US",
+            "city": "YUMA",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-114.61600",
+        "alt": {},
+        "elevation": {},
+        "latt": "32.68269"
+    },
+    "Fort Smith, Arkansas, US": {
+        "standard": {
+            "addresst": {},
+            "city": "FORT SMITH",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.266666666666667"
+        },
+        "longt": "-94.38772",
+        "alt": {},
+        "elevation": {},
+        "latt": "35.32417"
+    },
+    "San Diego, California, US": {
+        "standard": {
+            "stnumber": "1800",
+            "addresst": "CALIFORNIA ST",
+            "postal": "92101-2221",
+            "region": "CA",
+            "prov": "US",
+            "city": "SAN DIEGO",
+            "countryname": "United States of America",
+            "confidence": "0.8"
+        },
+        "longt": "-117.17018",
+        "alt": {},
+        "elevation": {},
+        "latt": "32.72359"
+    },
+    "Hartford Springfield, Connecticut, US": {
+        "standard": {
+            "addresst": {},
+            "city": "SPRINGFIELD",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.266666666666667"
+        },
+        "longt": "-93.29335",
+        "alt": {},
+        "elevation": {},
+        "latt": "37.19194"
+    },
+    "Washington DC, Maryland, US": {
+        "standard": {
+            "addresst": {},
+            "city": "Washington DC",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.266666666666667"
+        },
+        "longt": "-78.01128",
+        "alt": {},
+        "elevation": {},
+        "latt": "40.32058"
+    },
+    "Tampa St. Petersburg, Florida, US": {
+        "standard": {
+            "stnumber": "16215",
+            "addresst": "Tampa ST",
+            "postal": "33604",
+            "region": "FL",
+            "prov": "US",
+            "city": "Tampa",
+            "countryname": "United States of America",
+            "confidence": "0.8"
+        },
+        "longt": "-82.46180",
+        "alt": {},
+        "elevation": {},
+        "latt": "28.10126"
+    },
+    "Atlanta, Georgia, US": {
+        "standard": {
+            "addresst": {},
+            "city": "GEORGIA",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-73.13081",
+        "alt": {},
+        "elevation": {},
+        "latt": "44.72376"
+    },
+    "Honolulu, Hawaii, US": {
+        "standard": {
+            "addresst": {},
+            "city": "HONOLULU",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-157.83411",
+        "alt": {},
+        "elevation": {},
+        "latt": "21.31158"
+    },
+    "Boise, Idaho, US": {
+        "standard": {
+            "addresst": {},
+            "city": "IDAHO",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.266666666666667"
+        },
+        "longt": "-83.14660",
+        "alt": {},
+        "elevation": {},
+        "latt": "39.09577"
+    },
+    "Chicago, Illinois, US": {
+        "standard": {
+            "addresst": {},
+            "city": "ILLINOIS",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-93.10932",
+        "alt": {},
+        "elevation": {},
+        "latt": "35.28705"
+    },
+    "Evansville, Indiana, US": {
+        "standard": {
+            "stnumber": "7200",
+            "addresst": "Indiana ST",
+            "postal": "47715",
+            "region": "IN",
+            "prov": "US",
+            "city": "EVANSVILLE",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-87.46505",
+        "alt": {},
+        "elevation": {},
+        "latt": "37.97775"
+    },
+    "Fort Wayne, Indiana, US": {
+        "standard": {
+            "stnumber": "2700",
+            "addresst": "INDIANA AVE",
+            "postal": "46807-1144",
+            "region": "IN",
+            "prov": "US",
+            "city": "FORT WAYNE",
+            "countryname": "United States of America",
+            "confidence": "0.8"
+        },
+        "longt": "-85.14958",
+        "alt": {},
+        "elevation": {},
+        "latt": "41.06012"
+    },
+    "Indianapolis, Indiana, US": {
+        "standard": {
+            "addresst": {},
+            "city": "INDIANAPOLIS",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-86.11386",
+        "alt": {},
+        "elevation": {},
+        "latt": "39.80195"
+    },
+    "Shreveport, Louisiana, US": {
+        "standard": {
+            "addresst": {},
+            "city": "SHREVEPORT",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-93.82211",
+        "alt": {},
+        "elevation": {},
+        "latt": "32.54637"
+    },
+    "Sault Ste Marie, Michigan, US": {
+        "standard": {
+            "addresst": {},
+            "city": "Sault Ste Marie",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.266666666666667"
+        },
+        "longt": "-84.36346",
+        "alt": {},
+        "elevation": {},
+        "latt": "46.39787"
+    },
+    "Bismarck, North Dakota, US": {
+        "standard": {
+            "addresst": {},
+            "city": "BISMARCK",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-100.76329",
+        "alt": {},
+        "elevation": {},
+        "latt": "46.82230"
+    },
+    "Chattanooga, Tennessee, US": {
+        "standard": {
+            "addresst": {},
+            "city": "CHATTANOOGA",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-85.24637",
+        "alt": {},
+        "elevation": {},
+        "latt": "35.05639"
+    },
+    "Dallas Ft Worth, Texas, US": {
+        "standard": {
+            "stnumber": "5519",
+            "addresst": "ELLSWORTH AVE",
+            "postal": "75206-5397",
+            "region": "TX",
+            "prov": "US",
+            "city": "DALLAS",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-96.77372",
+        "alt": {},
+        "elevation": {},
+        "latt": "32.83363"
+    },
+    "Houston, Texas, US": {
+        "standard": {
+            "addresst": "Texas",
+            "city": "Houston",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": "77003",
+            "confidence": "0.45"
+        },
+        "longt": "-95.34423",
+        "alt": {},
+        "elevation": {},
+        "latt": "29.74845"
+    },
+    "San Angelo, Texas, US": {
+        "standard": {
+            "addresst": {},
+            "city": "SAN ANGELO",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.233333333333333"
+        },
+        "longt": "-100.45550",
+        "alt": {},
+        "elevation": {},
+        "latt": "31.45656"
+    },
+    "Seattle, Washington, US": {
+        "standard": {
+            "stnumber": "600",
+            "addresst": "Washington AVE",
+            "postal": "98199",
+            "region": "WA",
+            "prov": "US",
+            "city": "SEATTLE",
+            "countryname": "United States of America",
+            "confidence": "0.6"
+        },
+        "longt": "-122.40893",
+        "alt": {},
+        "elevation": {},
+        "latt": "47.66035"
+    },
+    "Charleston, West Virginia, US": {
+        "standard": {
+            "addresst": {},
+            "city": "WEST VIRGINIA",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-92.56827",
+        "alt": {},
+        "elevation": {},
+        "latt": "47.51809"
+    },
+    "Elkins, West Virginia, US": {
+        "standard": {
+            "addresst": {},
+            "city": "WEST VIRGINIA",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-92.56827",
+        "alt": {},
+        "elevation": {},
+        "latt": "47.51809"
+    },
+    "Green Bay, Wisconsin, US": {
+        "standard": {
+            "addresst": {},
+            "city": "GREEN BAY",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-88.02568",
+        "alt": {},
+        "elevation": {},
+        "latt": "44.51703"
+    },
+    "San Juan Puerto Rico, Additional Territories, US": {
+        "standard": {
+            "addresst": {},
+            "city": "San Juan",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-66.06040",
+        "alt": {},
+        "elevation": {},
+        "latt": "18.40522"
+    },
+    "Tegucigalpa, Honduras": {
+        "standard": {
+            "addresst": {},
+            "city": "Tegucigalpa",
+            "prov": "HN",
+            "countryname": "Honduras",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-87.20185",
+        "alt": {
+            "loc": {
+                "longt": "-87.17928",
+                "prov": "HN",
+                "city": "Tegucigalpa",
+                "countryname": "Honduras",
+                "postal": "504",
+                "region": {},
+                "latt": "14.06773"
+            }
+        },
+        "elevation": {},
+        "latt": "14.08474"
+    },
+    "Little Rock, Arkansas, US": {
+        "standard": {
+            "stnumber": "2302",
+            "addresst": "ARKANSAS AVE",
+            "postal": "72114",
+            "region": "AR",
+            "prov": "US",
+            "city": "LITTLE ROCK",
+            "countryname": "United States of America",
+            "confidence": "0.8"
+        },
+        "longt": "-92.24164",
+        "alt": {},
+        "elevation": {},
+        "latt": "34.75236"
+    },
+    "San Francisco, California, US": {
+        "standard": {
+            "stnumber": "400",
+            "addresst": "CALIFORNIA AVE",
+            "postal": "94130-1700",
+            "region": "CA",
+            "prov": "US",
+            "city": "SAN FRANCISCO",
+            "countryname": "United States of America",
+            "confidence": "0.8"
+        },
+        "longt": "-122.36676",
+        "alt": {},
+        "elevation": {},
+        "latt": "37.82010"
+    },
+    "West Palm Beach, Florida, US": {
+        "standard": {
+            "addresst": {},
+            "city": "West Palm Beach",
+            "prov": "US",
+            "countryname": "United States of America",
+            "postal": {},
+            "confidence": "0.90"
+        },
+        "longt": "-80.07718",
+        "alt": {},
+        "elevation": {},
+        "latt": "26.70835"
+    },
+    "Madison, Wisconsin, US": {
+        "standard": {
+            "stnumber": "666",
+            "addresst": "WISCONSIN AVE",
+            "postal": "53703-1385",
+            "region": "WI",
+            "prov": "US",
+            "city": "MADISON",
+            "countryname": "United States of America",
+            "confidence": "0.7"
+        },
+        "longt": "-89.38984",
+        "alt": {},
+        "elevation": {},
+        "latt": "43.07900"
+    }
+}

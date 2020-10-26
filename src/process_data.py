@@ -2,6 +2,11 @@ import numpy as np  # linear algebra
 import pandas as pd  # data processing, CSV file I/O (e.g. pd.read_csv)
 import decimal, os
 from typing import List
+import json
+import urllib.request, json
+import time
+import urllib
+import json
 
 
 def column_dtypes() -> dict:
@@ -33,6 +38,15 @@ def city_country_key(df: pd.DataFrame) -> pd.Series:
         + np.where(df["State"].isnull(), "", df["State"].astype("string") + ", ")
         + df["Country"].astype("string")
     )
+
+
+def load_city_lat_long() -> pd.DataFrame:
+    """
+    Load lat long city json
+    """
+
+    with open(os.path.join("data", "cities_lat_long.json"), "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
 def load_data() -> pd.DataFrame:
@@ -163,4 +177,52 @@ def data_summary(df):
     cites_num = len(df.City.unique())
 
     return f"""This website displays daily temperatures from {cites_num} cities, covering {len(df.Country.unique())} countries and the following regions of {regions_covered}.
-The first recorded day is {df.Date.min().strftime('%b, %Y')} and the last {df.Date.max().strftime('%b, %Y')}."""
+The first recorded day is {df.Date.min().strftime('%b, %Y')} and the last {df.Date.max().strftime('%b, %Y')}.
+
+The air temperature data is available for research and non-commercial purposes only (http://academic.udayton.edu/kissock/http/Weather/default.htm).
+
+The goal of this project is to make apparent any trends in the city temperature data. Each year is rendered on the charts in a different color"""
+
+
+def gen_geocode_get_lat_long_file():
+    """
+    Geocode.xyz uses only open data sources, including but not limited to OpenStreetMap, Geonames, Osmnames, openaddresses.io, UK Ordnance Survey, www.dati.gov.it, data.europa.eu/euodp/en/data, PSMA Geocoded National Address File (Australia), etc..
+    You may cache our geocodes, display results on any map, store them however you want for as long as you want, use them however you want, even commercially - unless you wish to resell our services.
+    """
+
+    df = preprocess(load_data)
+
+    df["web_key"] = (
+        df["City"].astype("string")
+        + ","
+        + np.where(df["State"].isnull(), "", df["State"].astype("string") + ",")
+        + df["Country"].astype("string")
+    )
+
+    country_cities = df[
+        ["Country", "State", "City", "CityCountry", "web_key"]
+    ].drop_duplicates()
+
+    print(country_cities)
+
+    all_data = {}
+    with open("cities_lat_long.json", "r", encoding="utf-8") as f:
+        all_data = json.load(f)
+
+    for _i, row in country_cities.iterrows():
+        country_query = urllib.parse.quote(row["web_key"])
+        print(country_query)
+        if str(row["CityCountry"]) not in all_data:
+            url = f"https://geocode.xyz/{country_query}?json=True"
+            print(url)
+
+            try:
+                with urllib.request.urlopen(url) as url_responce:
+                    data = json.loads(url_responce.read().decode())
+                    print(data)
+                    all_data[str(row["CityCountry"])] = data
+                with open("cities_lat_long.json", "w", encoding="utf-8") as f:
+                    json.dump(all_data, f, ensure_ascii=False, indent=4)
+                time.sleep(5)
+            except:
+                time.sleep(60)
