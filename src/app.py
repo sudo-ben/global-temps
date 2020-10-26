@@ -1,17 +1,21 @@
 # Daily average temperature values recorded in major cities of the world
 
+import pandas as pd
+from matplotlib import cm
+import plotly.graph_objs as go
+from plotly.subplots import make_subplots
+import plotly.express as px
 import dash
 from dash.dependencies import Input, Output
 import dash_core_components as dcc
 import dash_html_components as html
-import plotly.graph_objs as go
-from plotly.subplots import make_subplots
-from matplotlib import cm
-import plotly.express as px
 import datetime
 import urllib
 import functools
 import dash_leaflet as dl
+import numpy as np
+import dash_daq as daq
+from joblib import Memory
 
 from datetime import datetime as dt
 from process_data import (
@@ -24,33 +28,34 @@ from process_data import (
     data_summary,
     load_city_lat_long,
 )
-import numpy as np
-import pandas as pd
-import dash_daq as daq
-from joblib import Memory
 
 DEBUG = False
 memory = Memory(None) if DEBUG else Memory("cache", verbose=0)
 
-df = preprocess(load_data)
 
-title = f"⛅ World temperatures from {df.Date.min().strftime('%Y')} to {df.Date.max().strftime('%Y')}"
+title = f"⛅ Cities of the world temperatures from {df.Date.min().strftime('%Y')} to {df.Date.max().strftime('%Y')}"
 
 app = dash.Dash(name=title, suppress_callback_exceptions=True)
 server = app.server
 
 starting_cities = [
+    "Los Angeles, California, US",
     "New York City, New York, US",
     "Tokyo, Japan",
     "Shanghai, China",
-    "Los Angeles, California, US",
     "Delhi, India",
     "London, United Kingdom",
     "Abu Dhabi, United Arab Emirates",
 ]
-
 city_lat_long = load_city_lat_long()
 
+starting_position = (
+    float(city_lat_long["Denver, Colorado, US"]["latt"]),
+    float(city_lat_long["Denver, Colorado, US"]["longt"]),
+)
+
+
+df = preprocess(load_data)
 all_city_ids = list(df.CityCountry.unique())
 
 markers = [
@@ -80,8 +85,8 @@ app.layout = html.Div(
                 html.Div(
                     dl.Map(
                         [dl.TileLayer(), cluster],
-                        center=(33, 33),
-                        zoom=3,
+                        center=starting_position,
+                        zoom=5,
                         id="map",
                         style={
                             "width": "100%",
@@ -132,7 +137,7 @@ app.layout = html.Div(
 )
 def marker_click(*args):
     marker_id = dash.callback_context.triggered[0]["prop_id"].split(".")[0]
-    return marker_id if marker_id else "Los Angeles, California, US"
+    return marker_id if marker_id else starting_cities[0]
 
 
 viridis = cm.get_cmap("viridis", 12)
