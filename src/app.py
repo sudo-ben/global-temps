@@ -32,6 +32,7 @@ from process_data import (
 DEBUG = False
 memory = Memory(None) if DEBUG else Memory("cache", verbose=0)
 
+df = preprocess(load_data)
 
 title = f"⛅ Cities of the world temperatures from {df.Date.min().strftime('%Y')} to {df.Date.max().strftime('%Y')}"
 
@@ -55,7 +56,6 @@ starting_position = (
 )
 
 
-df = preprocess(load_data)
 all_city_ids = list(df.CityCountry.unique())
 
 markers = [
