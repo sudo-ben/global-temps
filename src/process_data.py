@@ -141,6 +141,6 @@ def data_summary(df):
     return f"""This website displays daily temperatures from {cites_num} cities, covering {len(df.Country.unique())} countries and the following regions of {regions_covered}.
 The first recorded day is {df.Date.min().strftime('%b, %Y')} and the last {df.Date.max().strftime('%b, %Y')}.
 
-The website uses air temperature data made avaible by University of Dayton [link](http://academic.udayton.edu/kissock/http/Weather/default.htm).
+The website uses air temperature data made available by University of Dayton [link](http://academic.udayton.edu/kissock/http/Weather/default.htm).
 
 The goal of this project is to make apparent any trends in the city temperature data. Each year is rendered on the charts in a different color"""
