@@ -12,7 +12,6 @@ import dash_html_components as html
 import datetime
 import urllib
 import functools
-import seaborn as sns
 import dash_leaflet as dl
 import numpy as np
 import dash_daq as daq
@@ -194,20 +193,8 @@ def marker_click(*args):
 
 number_colors = 2021 - int(df.Date.min().year)
 viridis = cm.get_cmap("magma", None)
-# year_colors = sns.cubehelix_palette(
-#     n_colors=number_colors,
-#     start=0,
-#     rot=0.1,
-#     gamma=0.95,
-#     hue=0.5,
-#     light=0.45,
-#     dark=0.15,
-#     reverse=True,
-# )
-# viridis = sns.color_palette("flare", as_cmap=True)
-# viridis = sns.light_palette("purple")
 
-year_colors = list(viridis(np.linspace(0, 0.6, number_colors)))
+year_colors = list(viridis(np.linspace(0.25, 0.6, number_colors)))
 year_colors_dict = {
     i
     + int(
