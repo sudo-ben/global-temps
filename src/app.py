@@ -54,9 +54,10 @@ app = dash.Dash(
             html, body {
                 padding: 0;
                 margin: 0;
-                background: #383838;
-                color: #eaeaea;
+                background: #000000;
+                color: #ffffff;
                 text-align: center;
+                font-family: "Open Sans", verdana, arial, sans-serif;
             }
             h1, h2, h3, h4, p, #my-daq-toggleswitch {
                 padding: 14px 0;
@@ -134,12 +135,13 @@ app.layout = html.Div(
                         center=starting_position,
                         zoom=5,
                         id="map",
+                        maxBounds=[(-180, -360), (180, 360)],
                         style={
                             "width": "100%",
                             "height": "50vh",
                             "margin": "auto",
                             "display": "block",
-                            "filter": "hue-rotate(180deg) contrast(100%)",
+                            "filter": "hue-rotate(40deg) brightness(1) contrast(1) saturate(0.5)",
                         },
                     )
                 )
@@ -312,8 +314,8 @@ def get_yearly_avg_fig(city_country, is_fahrenheit):
                     x=single_year.index,
                     y=single_year,
                     name=y[0],
-                    line={"color": chosen_color, "width": 0.7},
-                    marker={"color": chosen_color, "size": 12},
+                    line={"color": chosen_color, "width": 2},
+                    marker={"color": chosen_color, "size": 14},
                 )
             )
 
@@ -362,7 +364,7 @@ def update_month_each_year_graph(city_country, is_fahrenheit):
                 x=series.index,
                 y=series,
                 name=y[0],
-                opacity=0.6,
+                opacity=0.8,
                 mode="markers+lines",
                 line={"color": chosen_color, "width": 2},
                 marker={"color": chosen_color, "size": 6},

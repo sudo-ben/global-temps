@@ -4,7 +4,7 @@ The goal of this project is to make patterns or trends in climate data apparent 
 
 
 ## DEMO HOSTED HERE
-[Global temp demo here](https://global-temp.herokuapp.com/)
+[Global temp demo here](https://todaystrends.app/)
 
 
 
