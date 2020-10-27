@@ -12,6 +12,7 @@ import dash_html_components as html
 import datetime
 import urllib
 import functools
+import seaborn as sns
 import dash_leaflet as dl
 import numpy as np
 import dash_daq as daq
@@ -45,6 +46,7 @@ app = dash.Dash(
     index_string="""<!DOCTYPE html>
 <html>
     <head>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
         {%metas%}
         <title>{%title%}</title>
         {%favicon%}
@@ -190,8 +192,29 @@ def marker_click(*args):
     return marker_id if marker_id else starting_cities[0]
 
 
-viridis = cm.get_cmap("viridis", 12)
-year_colors = list(reversed(viridis(np.linspace(0, 1, 2021 - int(df.Date.min().year)))))
+number_colors = 2021 - int(df.Date.min().year)
+viridis = cm.get_cmap("magma", None)
+# year_colors = sns.cubehelix_palette(
+#     n_colors=number_colors,
+#     start=0,
+#     rot=0.1,
+#     gamma=0.95,
+#     hue=0.5,
+#     light=0.45,
+#     dark=0.15,
+#     reverse=True,
+# )
+# viridis = sns.color_palette("flare", as_cmap=True)
+# viridis = sns.light_palette("purple")
+
+year_colors = list(viridis(np.linspace(0, 0.6, number_colors)))
+year_colors_dict = {
+    i
+    + int(
+        df.Date.min().year
+    ): f"rgb({int(c[0] * 256)},{int(c[1] * 256)},{int(c[2] * 256)})"
+    for i, c in enumerate(year_colors)
+}
 
 
 def get_symbol(is_fahrenheit):
@@ -220,8 +243,7 @@ def build_city_all_with_mean(city_country, is_fahrenheit):
     fig = go.Figure()
 
     for y in yearly_data:
-        chosen_color = year_colors[(2021 - y[0]) - 1]
-        rgb_color = f"rgb({int(chosen_color[1] * 256)},{int(chosen_color[2] * 256)},{int(chosen_color[3] * 256)})"
+        chosen_color = year_colors_dict[y[0]]
 
         fig.add_trace(
             go.Scatter(
@@ -229,7 +251,7 @@ def build_city_all_with_mean(city_country, is_fahrenheit):
                 y=y[1]["AvgTemperature"],
                 name=y[0],
                 mode="markers",
-                marker={"color": rgb_color, "size": 3},
+                marker={"color": chosen_color, "size": 3},
             )
         )
 
@@ -285,8 +307,7 @@ def get_yearly_avg_fig(city_country, is_fahrenheit):
 
     yearly_mean = city_df["AvgTemperature"].astype(float).resample("Y").mean()
     for y in yearly_data:
-        chosen_color = year_colors[(2021 - y[0]) - 1]
-        rgb_color = f"rgb({int(chosen_color[1] * 256)},{int(chosen_color[2] * 256)},{int(chosen_color[3] * 256)})"
+        chosen_color = year_colors_dict[y[0]]
 
         single_year = yearly_mean[
             (yearly_mean.index.year == int(y[0]))
@@ -304,8 +325,8 @@ def get_yearly_avg_fig(city_country, is_fahrenheit):
                     x=single_year.index,
                     y=single_year,
                     name=y[0],
-                    line={"color": rgb_color, "width": 0.7},
-                    marker={"color": rgb_color, "size": 12},
+                    line={"color": chosen_color, "width": 0.7},
+                    marker={"color": chosen_color, "size": 12},
                 )
             )
 
@@ -343,8 +364,7 @@ def update_month_each_year_graph(city_country, is_fahrenheit):
 
     for y in yearly_data:
         y[1].index = y[1].index.map(lambda dt: dt.replace(year=2020))
-        chosen_color = year_colors[(2021 - y[0]) - 1]
-        rgb_color = f"rgb({int(chosen_color[1] * 256)},{int(chosen_color[2] * 256)},{int(chosen_color[3] * 256)})"
+        chosen_color = year_colors_dict[y[0]]
 
         series = y[1]
 
@@ -357,8 +377,8 @@ def update_month_each_year_graph(city_country, is_fahrenheit):
                 name=y[0],
                 opacity=0.6,
                 mode="markers+lines",
-                line={"color": rgb_color, "width": 2},
-                marker={"color": rgb_color, "size": 6},
+                line={"color": chosen_color, "width": 2},
+                marker={"color": chosen_color, "size": 6},
             )
         )
 
