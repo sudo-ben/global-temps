@@ -16,6 +16,8 @@ import dash_leaflet as dl
 import numpy as np
 import dash_daq as daq
 from joblib import Memory
+import flask
+import os
 
 from datetime import datetime as dt
 from process_data import (
@@ -46,6 +48,10 @@ app = dash.Dash(
 <html>
     <head>
         <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+        <meta property="og:image" content="https://todaystrends.app/static/social_image.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="700">
+        <meta property="og:image:height" content="450">
         {%metas%}
         <title>{%title%}</title>
         {%favicon%}
@@ -182,6 +188,14 @@ app.layout = html.Div(
         ),
     ]
 )
+
+
+STATIC_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "static")
+
+
+@app.server.route("/static/<resource>")
+def serve_static(resource):
+    return flask.send_from_directory(STATIC_PATH, resource)
 
 
 @app.callback(
