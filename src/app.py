@@ -21,23 +21,23 @@ import os
 
 from datetime import datetime as dt
 from process_data import (
-    preprocess,
-    load_data,
-    build_city_df,
+    city_by_index,
     data_summary,
-    load_city_lat_long,
+    city_by_name,
+    build_reduced_city_lookup,
 )
 from process_city_data import (
     calc_monthly,
-    calc_yearly,
 )
 
 DEBUG = False
 memory = Memory(None) if DEBUG else Memory("cache", verbose=0)
 
-df = preprocess(load_data)
+city_lookup = build_reduced_city_lookup()
+starting_city_id = 8  # Los Angeles, United States
+sample_city = city_by_index(starting_city_id)
 
-title = f"Cities of the world temperatures from {df.Date.min().strftime('%Y')} to {df.Date.max().strftime('%Y')}"
+title = f"Cities of the world temperatures from {sample_city.index.min().strftime('%Y')} to {sample_city.index.max().strftime('%Y')}"
 
 app = dash.Dash(
     name=title,
@@ -65,7 +65,7 @@ app = dash.Dash(
                 text-align: center;
                 font-family: "Open Sans", verdana, arial, sans-serif;
             }
-            h1, h2, h3, h4, p, #my-daq-toggleswitch {
+            h1, h2, h3, h4, h5, h6, p, #my-daq-toggleswitch {
                 padding: 14px 0;
                 margin: 0;
             }
@@ -73,7 +73,7 @@ app = dash.Dash(
             #footer {
                 text-align: left;
             }
-            #footer p, #footer h3 {
+            #footer p, #footer h3, #footer h4 {
                 padding: 0.5rem 1rem;
             }
             a {
@@ -93,39 +93,29 @@ app = dash.Dash(
 )
 server = app.server
 
-starting_cities = [
-    "Los Angeles, California, US",
-    "New York City, New York, US",
-    "Tokyo, Japan",
-    "Shanghai, China",
-    "Delhi, India",
-    "London, United Kingdom",
-    "Abu Dhabi, United Arab Emirates",
-]
-city_lat_long = load_city_lat_long()
-
 starting_position = (
-    float(city_lat_long["Wichita, Kansas, US"]["latt"]),
-    float(city_lat_long["Wichita, Kansas, US"]["longt"]),
+    float(city_lookup.iloc[[starting_city_id]].lat),
+    float(city_lookup.iloc[[starting_city_id]].lng),
 )
 
+print("starting_position", starting_position)
 
-all_city_ids = list(df.CityCountry.unique())
 
 markers = [
     dl.Marker(
-        dl.Tooltip(city_id),
+        dl.Tooltip(city_row.city + ", " + city_row.country),
         position=(
-            float(city_lat_long[city_id]["latt"]),
-            float(city_lat_long[city_id]["longt"]),
+            float(city_row.lat),
+            float(city_row.lng),
         ),
-        id=city_id.replace(".", ""),
+        id="city_id_" + str(i),
     )
-    for city_id in all_city_ids
+    for i, city_row in city_lookup.iterrows()
 ]
 cluster = dl.MarkerClusterGroup(
     id="markers", children=markers, options={"polygonOptions": {"color": "red"}}
 )
+
 
 app.layout = html.Div(
     [
@@ -155,7 +145,10 @@ app.layout = html.Div(
         ),
         html.Div(
             [
-                html.H1(id="intermediate-value", children=""),
+                html.H1(id="city-name", children=""),
+                html.H1(
+                    id="intermediate-value", children="", style={"display": "none"}
+                ),
                 html.P(children=title),
                 daq.ToggleSwitch(
                     id="my-daq-toggleswitch",
@@ -171,7 +164,7 @@ app.layout = html.Div(
             f"""
 ---
 
-{data_summary(df)}
+{data_summary(city_lookup, sample_city)}
 
 [GitHub link and code](https://github.com/benjaminmcdonald/global-temps)
 
@@ -199,7 +192,24 @@ def serve_static(resource):
 
 
 @app.callback(
-    [Output("intermediate-value", "children"), Output("map", "center")],
+    Output("url", "pathname"),
+    [Input(marker.id, "n_clicks") for marker in markers],
+)
+def marker_click(*args):
+    city_id_str = dash.callback_context.triggered[0]["prop_id"].split(".")[0]
+    city_id = int(city_id_str.split("_")[-1])
+
+    city_row = city_lookup.iloc[[city_id]]
+
+    return city_row.city
+
+
+@app.callback(
+    [
+        Output("city-name", "children"),
+        Output("intermediate-value", "children"),
+        Output("map", "center"),
+    ],
     [dash.dependencies.Input("url", "pathname")]
     + [Input(marker.id, "n_clicks") for marker in markers],
 )
@@ -209,27 +219,40 @@ def marker_click(*args):
         pathname = args[0]
         city_name = urllib.parse.unquote(pathname[1:])
         print("pathname", pathname, city_name)
-        if pathname == "/" or city_name not in all_city_ids:
-            city_id = starting_cities[0]
+        if pathname == "/":
+            city_id = starting_city_id
         else:
-            city_id = city_name
+            city_col = city_lookup[city_lookup["city"] == city_name]
+            if len(city_col) == 0:
+                city_id = starting_city_id
+            else:
+                city_id = int(city_col.index[0])
     else:
-        city_id = dash.callback_context.triggered[0]["prop_id"].split(".")[0]
+        city_id_str = dash.callback_context.triggered[0]["prop_id"].split(".")[0]
+        city_id = int(city_id_str.split("_")[-1])
 
-    return city_id, (
-        float(city_lat_long[city_id]["latt"]),
-        float(city_lat_long[city_id]["longt"]),
+    city_row = city_lookup.iloc[[city_id]]
+    selected_city_data = (
+        city_row.city + ", " + city_row.country,
+        "city_id_" + str(city_id),
+        (
+            float(city_row.lat),
+            float(city_row.lng),
+        ),
     )
+    print(selected_city_data)
+
+    return selected_city_data
 
 
-number_colors = 2021 - int(df.Date.min().year)
+number_colors = 2021 - int(sample_city.index.min().year)
 viridis = cm.get_cmap("magma", None)
 
 year_colors = list(viridis(np.linspace(0.25, 0.6, number_colors)))
 year_colors_dict = {
     i
     + int(
-        df.Date.min().year
+        sample_city.index.min().year
     ): f"rgb({int(c[0] * 256)},{int(c[1] * 256)},{int(c[2] * 256)})"
     for i, c in enumerate(year_colors)
 }
@@ -252,11 +275,10 @@ def _build_city_all_with_mean(city_country, is_fahrenheit):
 
 @memory.cache
 def build_city_all_with_mean(city_country, is_fahrenheit):
-    city_df = build_city_df(df, city_country, is_fahrenheit)
+    city_id = int(city_country.split("_")[-1])
+    city_df = city_by_index(city_id)
 
-    fig = go.Figure()
-
-    yearly_data = calc_yearly(city_df)
+    yearly_data = city_df.groupby([city_df.index.year])
 
     fig = go.Figure()
 
@@ -266,7 +288,7 @@ def build_city_all_with_mean(city_country, is_fahrenheit):
         fig.add_trace(
             go.Scatter(
                 x=y[1].index,
-                y=y[1]["AvgTemperature"],
+                y=y[1],
                 name=y[0],
                 mode="markers",
                 marker={"color": chosen_color, "size": 3},
@@ -274,7 +296,7 @@ def build_city_all_with_mean(city_country, is_fahrenheit):
         )
 
     yearly_mean = (
-        city_df[city_df.index.year < city_df.index.max().year]["AvgTemperature"]
+        city_df[city_df.index.year < city_df.index.max().year]
         .astype(float)
         .resample("Y")
         .mean()
@@ -315,15 +337,16 @@ def _get_yearly_avg_fig(city_country, is_fahrenheit):
 
 @memory.cache
 def get_yearly_avg_fig(city_country, is_fahrenheit):
-    city_df = build_city_df(df, city_country, is_fahrenheit)
+    city_id = int(city_country.split("_")[-1])
+    city_df = city_by_index(city_id)
 
     fig = go.Figure()
 
     fig = go.Figure()
 
-    yearly_data = calc_yearly(city_df)
+    yearly_data = city_df.groupby([city_df.index.year])
 
-    yearly_mean = city_df["AvgTemperature"].astype(float).resample("Y").mean()
+    yearly_mean = city_df.resample("Y").mean()
     for y in yearly_data:
         chosen_color = year_colors_dict[y[0]]
 
@@ -374,9 +397,10 @@ def _update_month_each_year_graph(city_country, is_fahrenheit):
 
 @memory.cache
 def update_month_each_year_graph(city_country, is_fahrenheit):
-    city_df = build_city_df(df, city_country, is_fahrenheit)
+    city_id = int(city_country.split("_")[-1])
+    city_df = city_by_index(city_id)
 
-    yearly_data = calc_yearly(city_df)
+    yearly_data = city_df.groupby([city_df.index.year])
 
     fig = go.Figure()
 
@@ -386,7 +410,7 @@ def update_month_each_year_graph(city_country, is_fahrenheit):
 
         series = y[1]
 
-        series = series.groupby(pd.Grouper(freq="15D"))["AvgTemperature"].mean()
+        series = series.groupby(pd.Grouper(freq="15D")).mean()
 
         fig.add_trace(
             go.Scatter(
