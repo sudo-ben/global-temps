@@ -197,11 +197,13 @@ def serve_static(resource):
 )
 def marker_click(*args):
     city_id_str = dash.callback_context.triggered[0]["prop_id"].split(".")[0]
-    city_id = int(city_id_str.split("_")[-1])
+    print("marker_click", city_id_str)
+    if len(city_id_str) > 0:
+        city_id = int(city_id_str.split("_")[-1])
 
-    city_row = city_lookup.iloc[[city_id]]
+        city_row = city_lookup.iloc[[city_id]]
 
-    return city_row.city
+        return city_row.city
 
 
 @app.callback(
