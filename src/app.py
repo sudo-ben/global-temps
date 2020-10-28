@@ -280,6 +280,9 @@ def build_city_all_with_mean(city_country, is_fahrenheit):
     city_id = int(city_country.split("_")[-1])
     city_df = city_by_index(city_id)
 
+    if is_fahrenheit:
+        city_df = (city_df / (5 / 9)) + (32)
+
     yearly_data = city_df.groupby([city_df.index.year])
 
     fig = go.Figure()
@@ -341,6 +344,8 @@ def _get_yearly_avg_fig(city_country, is_fahrenheit):
 def get_yearly_avg_fig(city_country, is_fahrenheit):
     city_id = int(city_country.split("_")[-1])
     city_df = city_by_index(city_id)
+    if is_fahrenheit:
+        city_df = (city_df / (5 / 9)) + (32)
 
     fig = go.Figure()
 
@@ -401,6 +406,8 @@ def _update_month_each_year_graph(city_country, is_fahrenheit):
 def update_month_each_year_graph(city_country, is_fahrenheit):
     city_id = int(city_country.split("_")[-1])
     city_df = city_by_index(city_id)
+    if is_fahrenheit:
+        city_df = (city_df / (5 / 9)) + (32)
 
     yearly_data = city_df.groupby([city_df.index.year])
 
