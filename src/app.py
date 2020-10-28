@@ -199,12 +199,27 @@ def serve_static(resource):
 
 
 @app.callback(
-    Output("intermediate-value", "children"),
-    [Input(marker.id, "n_clicks") for marker in markers],
+    [Output("intermediate-value", "children"), Output("map", "center")],
+    [dash.dependencies.Input("url", "pathname")]
+    + [Input(marker.id, "n_clicks") for marker in markers],
 )
 def marker_click(*args):
-    marker_id = dash.callback_context.triggered[0]["prop_id"].split(".")[0]
-    return marker_id if marker_id else starting_cities[0]
+    city_id = None
+    if dash.callback_context.triggered[0]["prop_id"] == "url.pathname":
+        pathname = args[0]
+        city_name = urllib.parse.unquote(pathname[1:])
+        print("pathname", pathname, city_name)
+        if pathname == "/" or city_name not in all_city_ids:
+            city_id = starting_cities[0]
+        else:
+            city_id = city_name
+    else:
+        city_id = dash.callback_context.triggered[0]["prop_id"].split(".")[0]
+
+    return city_id, (
+        float(city_lat_long[city_id]["latt"]),
+        float(city_lat_long[city_id]["longt"]),
+    )
 
 
 number_colors = 2021 - int(df.Date.min().year)
@@ -294,7 +309,7 @@ def build_city_all_with_mean(city_country, is_fahrenheit):
     ],
 )
 def _get_yearly_avg_fig(city_country, is_fahrenheit):
-    print(city_country)
+    print("city_country", city_country)
     return get_yearly_avg_fig(city_country, is_fahrenheit)
 
 
