@@ -8,7 +8,14 @@ import time
 import urllib
 import json
 
-all_filenames = [os.path.join("data", "daily_temperature_1000_cities_1980_2020.csv")]
+all_filenames = [
+    os.path.join(
+        os.path.dirname(os.path.realpath(__file__)),
+        "..",
+        "data",
+        "daily_temperature_1000_cities_1980_2020.csv",
+    ),
+]
 
 
 def build_city_lookup():
