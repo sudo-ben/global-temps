@@ -115,14 +115,14 @@ def build_reduced_city_lookup():
 def data_summary(city_lookup, sample_city):
     sample_city = city_by_index(0)
     return f"""#### Data
-This data contains daily temperatures for {len(city_lookup)} cities with a total population of at least {city_lookup["population"].sum():,}, covering {len(city_lookup["country"].unique())} countries. The first recorded day is {sample_city.index.min().strftime('%d %B, %Y')} and the last {sample_city.index.max().strftime('%d %B, %Y')}.
+This data contains daily temperatures for {len(city_lookup)} cities coving a population of at least {city_lookup["population"].sum():,} and {len(city_lookup["country"].unique())} countries. The first recorded day is {sample_city.index.min().strftime('%d %B, %Y')} and the last {sample_city.index.max().strftime('%d %B, %Y')}.
     
 The website uses air temperature data made available by the Copernicus Climate Service.
 
 * Raw temperature data from [https://cds.climate.copernicus.eu](https://cds.climate.copernicus.eu)
-* City data from [https://simplemaps.com/data/world-cities](https://simplemaps.com/data/world-cities)
+* City data from [https://simplemaps.com/](https://simplemaps.com/data/world-cities)
 * Time-series extracted via [https://oikolab.com](https://oikolab.com)
-
+[Data license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 
 The goal of this project is to make apparent any trends in the city temperature data. Each year is rendered on the charts in a different color
 """
