@@ -94,8 +94,8 @@ app = dash.Dash(
 server = app.server
 
 starting_position = (
-    float(city_lookup.iloc[[starting_city_id]].lat),
-    float(city_lookup.iloc[[starting_city_id]].lng),
+    float(city_lookup.iloc[[starting_city_id]]["lat"]),
+    float(city_lookup.iloc[[starting_city_id]]["lng"]),
 )
 
 print("starting_position", starting_position)
@@ -105,8 +105,8 @@ markers = [
     dl.Marker(
         dl.Tooltip(city_row.city + ", " + city_row.country),
         position=(
-            float(city_row.lat),
-            float(city_row.lng),
+            float(city_row["lat"]),
+            float(city_row["lng"]),
         ),
         id="city_id_" + str(i),
     )
@@ -238,8 +238,8 @@ def marker_click(*args):
         city_row.city + ", " + city_row.country,
         "city_id_" + str(city_id),
         (
-            float(city_row.lat),
-            float(city_row.lng),
+            float(city_row["lat"]),
+            float(city_row["lng"]),
         ),
     )
     print(selected_city_data)

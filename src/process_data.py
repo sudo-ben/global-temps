@@ -19,8 +19,8 @@ def build_city_lookup():
     city_lookup = pd.read_csv(all_filenames[0], nrows=12).T
     city_lookup.columns = city_lookup.iloc[0]
     city_lookup = city_lookup.iloc[1:, :]
-    city_lookup["lat"] = city_lookup.lat.astype(np.float)
-    city_lookup["lng"] = city_lookup.lng.astype(np.float)
+    city_lookup["lat"] = city_lookup["lat"].astype(np.float)
+    city_lookup["lng"] = city_lookup["lng"].astype(np.float)
     return city_lookup
 
 
@@ -34,7 +34,7 @@ def build_reduced_city_lookup():
     city_lookup = build_city_lookup()
     city_lookup = city_lookup[["city", "country", "lat", "lng", "population"]]
     city_lookup.loc[:, "population"] = (
-        city_lookup.population.fillna(0).astype(float).astype(np.uint)
+        city_lookup["population"].fillna(0).astype(float).astype(np.uint)
     )
 
     assert len(city_lookup) == len(city_lookup.drop_duplicates())
@@ -44,12 +44,14 @@ def build_reduced_city_lookup():
     ]
 
     assert (
-        city_lookup.loc[(city_lookup.lat < -90) | (city_lookup.lat > 90), "lat"].count()
+        city_lookup.loc[
+            (city_lookup["lat"] < -90) | (city_lookup["lat"] > 90), "lat"
+        ].count()
         == 0
     )
     assert (
         city_lookup.loc[
-            (city_lookup.lng < -180) | (city_lookup.lng > 180), "lng"
+            (city_lookup["lng"] < -180) | (city_lookup["lng"] > 180), "lng"
         ].count()
         == 0
     )
@@ -99,12 +101,14 @@ def build_reduced_city_lookup():
     ]
 
     assert (
-        city_lookup.loc[(city_lookup.lat < -90) | (city_lookup.lat > 90), "lat"].count()
+        city_lookup.loc[
+            (city_lookup["lat"] < -90) | (city_lookup["lat"] > 90), "lat"
+        ].count()
         == 0
     )
     assert (
         city_lookup.loc[
-            (city_lookup.lng < -180) | (city_lookup.lng > 180), "lng"
+            (city_lookup["lng"] < -180) | (city_lookup["lng"] > 180), "lng"
         ].count()
         == 0
     )
